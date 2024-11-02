@@ -1,0 +1,55 @@
+.navbar-container {
+    height: 60px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--primary-text);
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.nav-links li.active a{
+    font-weight: 400;
+}
+
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-text);
+    border-top: 1px solid var(--primary-text);
+    border-bottom: 1px solid var(--primary-text);
+}
+
+
+.toggle-container {
+    padding-top: 4px;
+}
+
+.sun-icon {
+    width: 32px;
+    cursor: pointer;
+}
+
+.moon-icon {
+    width: 32px;
+    cursor: pointer;
+}
