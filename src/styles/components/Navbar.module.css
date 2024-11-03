@@ -27,7 +27,8 @@
 }
 
 .nav-links li.active a{
-    font-weight: 400;
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 

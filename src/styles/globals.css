@@ -1,5 +1,11 @@
 :root {
   --primary-text: #131313; 
+  --primary-background: #dadada;
+}
+
+.dark-mode {
+  --primary-text: #dadada;
+  --primary-background: #131313;
 }
 
 * {
@@ -12,22 +18,26 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--primary-background);
 }
 
 h1 {
   font-family: 'Noto Sans', sans-serif;
   font-size: 3rem;
+  color: var(--primary-text);
 }
 
 h2 {
   font-family: 'Noto Sans', sans-serif;
   font-size: 2.5rem;
+  color: var(--primary-text);
 }
 
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
+  color: var(--primary-text);
 }
 
 a {
@@ -35,7 +45,7 @@ a {
   font-size: 1.25rem;
   font-weight: 400;  
   text-decoration: none;
-  color: var(--black);
+  color: var(--primary-text);
 }
 
 

@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useRouter } from "next/router";
+import { DarkModeContext } from "@/util/darkModeContext";
 import Link from "next/link";
 import styles from "@/styles/components/Navbar.module.css";
 import sun from "../../public/sun.svg";
@@ -7,9 +8,7 @@ import moon from "../../public/moon.svg";
 
 export default function Navbar() {
 	const router = useRouter();
-	const [darkModeToggle, setDarkModeToggle] = useState(false);
-
-	console.log(router.pathname);
+	const [darkModeToggle, setDarkModeToggle] = useContext(DarkModeContext);
 
 	return (
 		<nav className={styles["navbar-container"]}>
