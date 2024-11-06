@@ -8,7 +8,7 @@ export default function Intro() {
 			<div className={styles["text"]}>
 				<h2>Hi, Im Erik</h2>
 				<p>
-					I'm a Full Stack Web Developer majoring in Computer Science. I'm currently working at{" "}
+					Im a Full Stack Web Developer majoring in Computer Science. Im currently working at{" "}
 					<a href="https://civiconnect.ca/" target="_blank">
 						Civiconnect{" "}
 					</a>{" "}
