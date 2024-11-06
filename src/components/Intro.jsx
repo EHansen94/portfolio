@@ -6,7 +6,7 @@ export default function Intro() {
 	return (
 		<div className={styles["container"]}>
 			<div className={styles["text"]}>
-				<h2>Hi, I'm Erik</h2>
+				<h2>Hi, Im Erik</h2>
 				<p>
 					I'm a Full Stack Web Developer majoring in Computer Science. I'm currently working at{" "}
 					<a href="https://civiconnect.ca/" target="_blank">
