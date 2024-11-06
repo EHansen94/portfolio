@@ -2,6 +2,7 @@ import React from "react";
 import styles from "@/styles/components/Intro.module.css";
 import image from "../../public/images/erik.png";
 
+//putting this here to update ''s
 export default function Intro() {
 	return (
 		<div className={styles["container"]}>
