@@ -1,11 +1,13 @@
-import React from 'react'
-import styles from '@/styles/pages/home.module.css'
-import Intro from '@/components/Intro'
+import React from "react";
+import styles from "@/styles/pages/home.module.css";
+import Intro from "@/components/Intro";
+import Projects from "@/components/Projects";
 
 export default function home() {
-  return (
-    <div className={styles['page-container']}>
-      <Intro />
-    </div>
-  )
+	return (
+		<div className={styles["page-container"]}>
+			<Intro />
+			<Projects />
+		</div>
+	);
 }
