@@ -11,9 +11,9 @@
 	width: 100%;
 }
 
-.project-container h2 {
-	font-size: 2rem;
-	margin-bottom: 1rem;
+.wrapper h2 {
+	margin: 2rem 0;
+	text-align: center;
 }
 
 .image-container {

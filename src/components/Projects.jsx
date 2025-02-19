@@ -4,25 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "@/styles/components/Projects.module.css";
 import Image from "next/image";
-import tv from "../../public/images/tv.png";
-import aoc from "../../public/images/aoc.png";
 
-export default function Projects() {
-	const projects = [
-		{
-			id: 1,
-			name: "Twenty Valley Golf Club",
-			image: tv,
-			desc: "A website for a golf club in Vineland, Ontario.",
-		},
-		{
-			id: 2,
-			name: "Artists of Modern Kazakhstan",
-			image: aoc,
-			desc: "A website for a group of artists in Kazakhstan.",
-		},
-	];
-
+export default function Projects({ projectData }) {
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -34,13 +17,13 @@ export default function Projects() {
 
 	return (
 		<div className={styles["wrapper"]}>
+			<h2>My Recent Projects</h2>
 			<Slider {...settings}>
-				{projects.map((project) => (
+				{projectData.map((project) => (
 					<div
 						key={project.id}
 						className={styles["project-container"]}
 					>
-						<h3>{project.name}</h3>
 						<div className={styles["image-container"]}>
 							<Image
 								src={project.image}
@@ -49,6 +32,7 @@ export default function Projects() {
 								height={800}
 							/>
 						</div>
+						<h3>{project.name}</h3>
 						<p>{project.desc}</p>
 					</div>
 				))}
