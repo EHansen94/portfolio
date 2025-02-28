@@ -20,7 +20,7 @@ export default function ProjectsSlider({ projectData }) {
 	useEffect(() => {
 		const autoSlide = setInterval(() => {
 			nextSlide();
-		}, 5000);
+		}, 12000);
 		return () => clearInterval(autoSlide);
 	}, [currentIndex]);
 
@@ -46,7 +46,7 @@ export default function ProjectsSlider({ projectData }) {
 									className={styles["image"]}
 									src={project.image}
 									alt={project.name}
-									width={500}
+									width={800}
 									height={300}
 								/>
 							</div>
