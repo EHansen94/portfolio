@@ -1,96 +1,109 @@
 .navbar-container {
-    height: 60px;
-    padding: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	height: 60px;
+	padding: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.nav-links{
-    display: flex;
-    gap: 3rem;
+.nav-links {
+	display: flex;
+	gap: 3rem;
 }
 
 .nav-links li {
-    list-style: none;
+	list-style: none;
+}
+
+.nav-links {
+	display: flex;
+	gap: 3rem;
+}
+
+.nav-links li {
+	list-style: none;
 }
 
 .nav-links li a {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--primary-text);
-    text-decoration: none;
+	position: relative;
+	font-size: 1.2rem;
+	font-weight: 300;
+	color: var(--primary-text);
+	text-decoration: none;
 }
 
-.nav-links li a:hover {
-    text-decoration: underline;
+.nav-links li a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 1px;
+	background: var(--primary-text);
+	transition: width 0.2s ease-in-out;
 }
 
-.nav-links li.active a{
-    text-decoration: underline;
-    font-weight: 500;
+.nav-links li a:hover::after {
+	width: 100%;
 }
-
 
 .logo a {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--primary-text);
-    border-top: 1px solid var(--primary-text);
-    border-bottom: 1px solid var(--primary-text);
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: var(--primary-text);
+	border-top: 1px solid var(--primary-text);
+	border-bottom: 1px solid var(--primary-text);
 }
 
-
 .desktop-link {
-    display:block;
+	display: block;
 }
 
 .mobile-link,
 .mobile-link-contact,
 .mobile-link-projects {
-    display:none;
-}   
+	display: none;
+}
 
 .toggle-container {
-    padding-top: 4px;
+	padding-top: 4px;
 }
 
 .sun-icon {
-    width: 32px;
-    cursor: pointer;
+	width: 32px;
+	cursor: pointer;
 }
 
 .moon-icon {
-    width: 32px;
-    cursor: pointer;
+	width: 32px;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
-    .desktop-link {
-        display: none;
-    }
+	.desktop-link {
+		display: none;
+	}
 
-    .mobile-link, 
-    .mobile-link-contact,
-    .mobile-link-projects {
-        display: block;
-        padding-top: 4px;
-    }
+	.mobile-link,
+	.mobile-link-contact,
+	.mobile-link-projects {
+		display: block;
+		padding-top: 4px;
+	}
 
-    .nav-links {
-        gap: 7vw;
-    }
+	.nav-links {
+		gap: 7vw;
+	}
 
-    .mobile-link img {
-        scale: 1.5;
-    }
+	.mobile-link img {
+		scale: 1.5;
+	}
 
-    .mobile-link-projects img {
-        scale: 1.4;
-    }
+	.mobile-link-projects img {
+		scale: 1.4;
+	}
 
-    .mobile-link-contact img {
-        scale: 1.7;
-    }
-
+	.mobile-link-contact img {
+		scale: 1.7;
+	}
 }

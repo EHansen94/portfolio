@@ -28,7 +28,10 @@ export default function ProjectsSlider({ projectData }) {
 
 	return (
 		<div className={styles["wrapper"]}>
-			<h2>My Recent Projects</h2>
+			<div className={styles["header"]}>
+				<h2>My Recent Projects</h2>
+				<a href="/projects">View All Projects</a>
+			</div>
 			<div className={styles["carousel-container"]}>
 				<button onClick={prevSlide} className={styles["nav-button"]}>
 					&#10094;
