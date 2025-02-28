@@ -4,7 +4,7 @@ export const projectData = [
 		name: "Artists of Modern Kazakhstan",
 		image: "/images/aoc.png",
 		link: "https://main.d2vlj2pormn3ke.amplifyapp.com/",
-		desc: "A website for a group of artists in Kazakhstan.",
+		desc: "I led the development team for the Artists of Modern Kazakhstan website, transforming the publication into an interactive digital experience. Key features included advanced search and filtering for artworks and artists, multilingual support (English, Kazakh, Russian), and a custom CMS (Strapi) for seamless content management.",
 	},
 	{
 		id: 2,
