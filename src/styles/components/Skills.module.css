@@ -1,0 +1,23 @@
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 2rem;
+}
+
+.items {
+	padding-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	color: var(--primary-text);
+	list-style: none;
+	gap: 2rem;
+}
+
+.items li {
+	font-family: "Noto Sans", sans-serif;
+	border: 1px solid var(--primary-text);
+	border-radius: 8px;
+	width: fit-content;
+	padding: 0.5rem 1rem;
+}
