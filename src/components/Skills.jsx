@@ -6,7 +6,7 @@ export default function Skills() {
 		<div className={styles["wrapper"]}>
 			<div className={styles["skills-container"]}>
 				<div className={styles["skills"]}>
-					<h2>Skills</h2>
+					<h2>Technical Skills</h2>
 					<ul className={styles["items"]}>
 						<li>React</li>
 						<li>Next.js</li>
@@ -19,6 +19,17 @@ export default function Skills() {
 						<li>Strapi</li>
 						<li>Supabase</li>
 						<li>Figma</li>
+					</ul>
+				</div>
+				<div className={styles["skills"]}>
+					<h2>Additional Skills</h2>
+					<ul className={styles["items"]}>
+						<li>Leading Development Teams</li>
+						<li>Project Management</li>
+						<li>Project Planning</li>
+						<li>Client Presentations</li>
+						<li>Prototyping</li>
+						<li>Code Reviews</li>
 					</ul>
 				</div>
 			</div>
