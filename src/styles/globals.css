@@ -1,10 +1,12 @@
 :root {
 	--primary-text: #131313;
+	--primary-text-reversed: #dadada;
 	--primary-background: #dadada;
 }
 
 .dark-mode {
 	--primary-text: #dadada;
+	--primary-text-reversed: #131313;
 	--primary-background: #131313;
 }
 
