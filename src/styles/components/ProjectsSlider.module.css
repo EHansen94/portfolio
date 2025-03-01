@@ -155,9 +155,10 @@
 
 /* Dots Navigation */
 .dots {
-	display: flex;
+	display: none;
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
 }
 
 .dot {
