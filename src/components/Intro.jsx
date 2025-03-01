@@ -17,8 +17,8 @@ export default function Intro() {
 					as a Web Development Team Lead.
 					<br />
 					<br />
-					I'm passionate about building modern, visually appealing,
-					and highly functional applications. I also enjoy mentoring
+					I'm passionate about building custom visually appealing and
+					highly functional applications. I also enjoy mentoring
 					junior developers, helping them grow their skills and
 					confidence in web development.
 				</p>

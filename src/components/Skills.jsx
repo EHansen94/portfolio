@@ -25,11 +25,12 @@ export default function Skills() {
 					<h2>Additional Skills</h2>
 					<ul className={styles["items"]}>
 						<li>Leading Development Teams</li>
+						<li>Code Reviews</li>
+						<li>Version Control</li>
 						<li>Project Management</li>
 						<li>Project Planning</li>
-						<li>Client Presentations</li>
 						<li>Prototyping</li>
-						<li>Code Reviews</li>
+						<li>Client Presentations</li>
 					</ul>
 				</div>
 			</div>

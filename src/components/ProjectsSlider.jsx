@@ -7,8 +7,6 @@ export default function ProjectsSlider({ projectData }) {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const totalSlides = projectData.length;
 
-	console.log(totalSlides);
-
 	const nextSlide = () => {
 		setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
 	};
