@@ -32,6 +32,10 @@
 	text-decoration: none;
 }
 
+.nav-links li a:hover {
+	cursor: pointer;
+}
+
 .nav-links li a::after {
 	content: "";
 	position: absolute;

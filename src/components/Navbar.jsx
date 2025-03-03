@@ -16,6 +16,15 @@ export default function Navbar() {
 	const router = useRouter();
 	const [darkModeToggle, setDarkModeToggle] = useContext(DarkModeContext);
 
+	const handleScroll = (e, id) => {
+		e.preventDefault();
+		if (router.pathname !== "/") {
+			router.push(`/#${id}`);
+		} else {
+			document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+		}
+	};
+
 	return (
 		<nav className={styles["navbar-container"]}>
 			<div className={styles["logo"]}>
@@ -62,23 +71,21 @@ export default function Navbar() {
 						)}
 					</div>
 				</li>
-				<li
-					className={`${
-						router.pathname == "/contact" ? styles["active"] : ""
-					}`}
-				>
+				<li>
 					<div className={styles["desktop-link"]}>
-						<Link href="/contact">Contact</Link>
+						<a onClick={(e) => handleScroll(e, "contact")}>
+							Contact
+						</a>
 					</div>
 					<div className={styles["mobile-link-contact"]}>
 						{darkModeToggle ? (
-							<Link href="/contact">
+							<a onClick={(e) => handleScroll(e, "contact")}>
 								<img src={contactD.src} />
-							</Link>
+							</a>
 						) : (
-							<Link href="/contact">
+							<a onClick={(e) => handleScroll(e, "contact")}>
 								<img src={contactL.src} />
-							</Link>
+							</a>
 						)}
 					</div>
 				</li>

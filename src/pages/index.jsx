@@ -12,7 +12,7 @@ export default function home() {
 			<Intro />
 			<ProjectsSlider projectData={projectData} />
 			<Skills />
-			<Contact />
+			<Contact id="contact" />
 		</div>
 	);
 }
