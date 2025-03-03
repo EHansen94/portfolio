@@ -33,6 +33,21 @@
 	gap: 1.5rem;
 }
 
+.contact-links a {
+	padding: 0.5rem 1rem;
+	background-color: transparent;
+	color: var(--primary-text);
+	border: 1.5px solid var(--primary-text);
+	border-radius: 8px;
+}
+
+.contact-links a:hover {
+	background-color: var(--primary-text);
+	color: var(--primary-background);
+	scale: 0.98;
+	transition: all 0.2s ease;
+}
+
 .form-container {
 	margin: 0 auto;
 	width: 60%;

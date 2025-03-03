@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "../styles/components/Contact.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
 	return (
@@ -13,7 +16,7 @@ export default function Contact() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Email
+							<FontAwesomeIcon icon={faSquareEnvelope} /> Email
 						</a>
 						<a
 							href="https://www.linkedin.com/in/erik-hansen-a70180206
@@ -21,7 +24,7 @@ export default function Contact() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							LinkedIn
+							<FontAwesomeIcon icon={faLinkedin} /> LinkedIn
 						</a>
 					</div>
 				</div>
