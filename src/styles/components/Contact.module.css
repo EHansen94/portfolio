@@ -1,0 +1,32 @@
+.contact-container {
+	margin: 0 auto 2.5rem auto;
+	width: 100%;
+	max-width: 1152px;
+}
+
+.contact-title {
+	margin-bottom: 1.5rem;
+}
+
+.form-container {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.form-group {
+	min-width: 100%;
+}
+
+.form-group input,
+.textarea-group textarea {
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.textarea-group textarea {
+	min-height: 100px;
+	max-height: 300px;
+}
