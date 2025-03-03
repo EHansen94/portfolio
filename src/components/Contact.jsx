@@ -12,7 +12,7 @@ export default function Contact() {
 					<h2>Get in Touch</h2>
 					<div className={styles["contact-links"]}>
 						<a
-							href="mailto:Ejhansen94@gmail.com"
+							href="mailto:ejhansen94@gmail.com"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -29,13 +29,25 @@ export default function Contact() {
 					</div>
 				</div>
 				<div className={styles["form-container"]}>
-					<form className={styles["contact-form"]}>
+					<form
+						className={styles["contact-form"]}
+						// action="https://formsubmit.co/ejhansen94@gmail.com"
+						// method="POST"
+					>
 						<div className={styles["form-group"]}>
-							<input type="text" placeholder="Name" />
-							<input type="email" placeholder="Email" />
+							<input type="text" name="name" placeholder="Name" />
+							<input
+								type="email"
+								name="email"
+								placeholder="Email"
+							/>
 						</div>
 						<div className={styles["textarea-group"]}>
-							<textarea placeholder="Message"></textarea>
+							<textarea
+								placeholder="Message"
+								type="text"
+								name="message"
+							></textarea>
 						</div>
 						<button type="submit">Submit</button>
 					</form>
