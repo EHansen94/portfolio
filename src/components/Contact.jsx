@@ -30,7 +30,7 @@ export default function Contact({ id }) {
 							</a>
 						</div>
 					</div>
-					<div className={styles["form-container"]}>
+					{/* <div className={styles["form-container"]}>
 						<form
 							className={styles["contact-form"]}
 							// action="https://formsubmit.co/ejhansen94@gmail.com"
@@ -57,7 +57,7 @@ export default function Contact({ id }) {
 							</div>
 							<button type="submit">Submit</button>
 						</form>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>

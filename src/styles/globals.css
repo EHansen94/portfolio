@@ -2,12 +2,14 @@
 	--primary-text: #131313;
 	--primary-text-reversed: #dadada;
 	--primary-background: #dadada;
+	--primary-background-2: #b8b8b8;
 }
 
 .dark-mode {
 	--primary-text: #dadada;
 	--primary-text-reversed: #131313;
 	--primary-background: #131313;
+	--primary-background-2: #272727;
 }
 
 * {
