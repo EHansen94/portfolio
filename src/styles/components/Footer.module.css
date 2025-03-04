@@ -15,23 +15,41 @@
 
 .contact-links {
 	display: flex;
-	gap: 2rem;
+	align-items: center;
+	gap: 1rem;
 }
 
+.contact-links svg {
+	color: var(--primary-text);
+	font-size: 2rem;
+}
+
+.contact-links svg:hover {
+	opacity: 0.8;
+	scale: 0.95;
+	transition: all 0.2s ease;
+}
+/* 
 .contact-links a {
 	color: var(--primary-text);
 	border: 1px solid var(--primary-text);
 	padding: 0.3rem 0.8rem;
 	border-radius: 8px;
 	font-size: 1rem;
+} */
+
+.contact-links p {
+	color: var(--primary-text);
+	font-size: 1rem;
 }
 
+/*
 .contact-links a:hover {
 	background-color: var(--primary-text);
 	color: var(--primary-background);
 	transition: all 0.2s ease;
 }
-
+*/
 .footer-cc p {
 	color: var(--primary-text);
 	font-size: 1rem;

@@ -9,15 +9,16 @@ export default function Footer() {
 		<div className={styles["footer-container"]}>
 			<div className={styles["footer-content"]}>
 				<div className={styles["footer-cc"]}>
-					<p>© 2025 - Designed and Developed by Erik Hansen</p>
+					<p>© 2025 - Designed & Developed by Erik Hansen</p>
 				</div>
 				<div className={styles["contact-links"]}>
+					<p>Contact me:</p>
 					<a
 						href="mailto:ejhansen94@gmail.com"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<FontAwesomeIcon icon={faSquareEnvelope} /> Email
+						<FontAwesomeIcon icon={faSquareEnvelope} />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/erik-hansen-a70180206
@@ -25,7 +26,7 @@ export default function Footer() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+						<FontAwesomeIcon icon={faLinkedin} />
 					</a>
 				</div>
 			</div>
