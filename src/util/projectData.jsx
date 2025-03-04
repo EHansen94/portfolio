@@ -38,4 +38,6 @@ export const projectData = [
 	// 	link: "https://civiconnect.ca/",
 	// 	desc: "Civiconnect main website.",
 	// },
+
+	// UMH, PNE, CERF, ALH, F4U, WCLA, Curly
 ];
