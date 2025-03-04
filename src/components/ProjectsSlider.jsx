@@ -2,6 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/components/ProjectsSlider.module.css";
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faChevronLeft,
+	faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectsSlider({ projectData }) {
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -32,7 +37,7 @@ export default function ProjectsSlider({ projectData }) {
 			</div>
 			<div className={styles["carousel-container"]}>
 				<button onClick={prevSlide} className={styles["nav-button"]}>
-					&#10094;
+					<FontAwesomeIcon icon={faChevronLeft} />
 				</button>
 				<div className={styles["carousel"]}>
 					{projectData.map((project, index) => (
@@ -76,7 +81,7 @@ export default function ProjectsSlider({ projectData }) {
 					))}
 				</div>
 				<button onClick={nextSlide} className={styles["nav-button"]}>
-					&#10095;
+					<FontAwesomeIcon icon={faChevronRight} />
 				</button>
 			</div>
 			<div className={styles["dots"]}>
