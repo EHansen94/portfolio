@@ -5,9 +5,16 @@
 
 .project-card img {
 	width: 100%;
-	height: 100%;
+	height: 320px;
 	object-fit: cover;
 	border-radius: 8px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primary-bg);
+	height: 100%;
 }
 
 .text {
@@ -15,9 +22,11 @@
 	flex-direction: column;
 	gap: 0.5rem;
 	padding: 1rem 0;
+	flex-grow: 1;
 }
 
 .stack {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;

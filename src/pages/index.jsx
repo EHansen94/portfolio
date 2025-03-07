@@ -4,7 +4,6 @@ import Intro from "@/components/Intro";
 import ProjectsSlider from "@/components/ProjectsSlider";
 import { projectData } from "../util/projectData";
 import Skills from "@/components/Skills";
-import Contact from "@/components/Contact";
 
 export default function home() {
 	return (
@@ -12,7 +11,6 @@ export default function home() {
 			<Intro />
 			<ProjectsSlider projectData={projectData} />
 			<Skills />
-			{/* <Contact id="contact" /> */}
 		</div>
 	);
 }

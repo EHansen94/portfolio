@@ -3,6 +3,7 @@ export const projectData = [
 		id: 1,
 		name: "Artists of Modern Kazakhstan",
 		image: "/images/aoc.png",
+		preview: "/images/aok-preview.png",
 		link: "https://main.d2vlj2pormn3ke.amplifyapp.com/",
 		desc: (
 			<>
@@ -15,11 +16,13 @@ export const projectData = [
 				and a custom CMS (Strapi) for seamless content management.
 			</>
 		),
+		tools: ["React", "Next.js", "CSS Modules", "Strapi"],
 	},
 	{
 		id: 2,
 		name: "Twenty Valley Golf Club",
 		image: "/images/tv.png",
+		preview: "/images/tv-preview.png",
 		link: "https://www.twentyvalley.com/",
 		desc: (
 			<>
@@ -30,6 +33,7 @@ export const projectData = [
 				(Strapi).
 			</>
 		),
+		tools: ["React", "Next.js", "TailwindCSS", "Strapi"],
 	},
 	// {
 	// 	id: 3,
