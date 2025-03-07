@@ -12,25 +12,20 @@
 }
 
 .items {
-	padding-top: 2rem;
 	display: flex;
 	flex-wrap: wrap;
 	color: var(--primary-text-reversed);
 	list-style: none;
 	gap: 2rem;
+	margin-left: 0;
 }
 
 .items li {
 	font-family: "Noto Sans", sans-serif;
 	border: 1px solid var(--primary-text);
 	background-color: var(--primary-text);
+	color: var(--primary-text-reversed);
 	border-radius: 8px;
 	width: fit-content;
 	padding: 0.5rem 1rem;
 }
-
-/* .items li:hover {
-	background-color: var(--primary-text-reversed);
-	color: var(--primary-text);
-	transition: all 0.3s ease-in-out;
-} */

@@ -46,6 +46,20 @@ h3 {
 	color: var(--primary-text);
 }
 
+h4 {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: var(--primary-text);
+}
+
+h5 {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-size: 1.05rem;
+	color: var(--primary-text);
+}
+
 p {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
@@ -59,4 +73,19 @@ a {
 	font-weight: 400;
 	text-decoration: none;
 	color: var(--primary-text);
+}
+
+ul {
+	list-style: disc;
+	margin-left: 2rem;
+	margin-top: 1.5rem;
+}
+
+li {
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--primary-text);
+	padding-bottom: 0.55rem;
+	line-height: 1.5;
 }

@@ -1,0 +1,40 @@
+.experience-container {
+	max-width: 1200px;
+	margin: 8.5rem auto 2rem auto;
+	padding: 0 20px;
+}
+
+.experience-container h2 {
+	margin-bottom: 1rem;
+}
+
+.experiences {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.job-title {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.job-date {
+	display: flex;
+	justify-content: space-between;
+}
+
+.job-title h3 {
+	font-size: 2rem;
+}
+
+.job-description {
+	max-width: 1000px;
+}
+
+.job-description p {
+	margin-top: 1rem;
+	font-size: 1.1rem;
+	font-weight: 400px;
+}

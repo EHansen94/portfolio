@@ -39,5 +39,5 @@ export const projectData = [
 	// 	desc: "Civiconnect main website.",
 	// },
 
-	// UMH, PNE, CERF, ALH, F4U, WCLA, Curly
+	// Others to include: UMH, PNE, CERF, ALH, F4U, WCLA, Curly
 ];
