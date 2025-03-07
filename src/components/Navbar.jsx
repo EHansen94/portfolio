@@ -12,6 +12,11 @@ import contactD from "../../public/icons/contact-dark.svg";
 import sun from "../../public/icons/sun.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
+import {
+	faScroll,
+	faBriefcase,
+	faHouse,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
 	const router = useRouter();
@@ -41,15 +46,9 @@ export default function Navbar() {
 						<Link href="/">Home</Link>
 					</div>
 					<div className={styles["mobile-link"]}>
-						{darkModeToggle ? (
-							<Link href="/">
-								<img src={homeD.src} />
-							</Link>
-						) : (
-							<Link href="/">
-								<img src={homeL.src} />
-							</Link>
-						)}
+						<Link href="/">
+							<FontAwesomeIcon icon={faHouse} />
+						</Link>
 					</div>
 				</li>
 				<li
@@ -61,33 +60,19 @@ export default function Navbar() {
 						<Link href="/projects">Projects</Link>
 					</div>
 					<div className={styles["mobile-link-projects"]}>
-						{darkModeToggle ? (
-							<Link href="/projects">
-								<img src={projectsD.src} />
-							</Link>
-						) : (
-							<Link href="/projects">
-								<img src={projectsL.src} />
-							</Link>
-						)}
+						<Link href="/projects">
+							<FontAwesomeIcon icon={faBriefcase} />
+						</Link>
 					</div>
 				</li>
 				<li>
 					<div className={styles["desktop-link"]}>
-						<a onClick={(e) => handleScroll(e, "contact")}>
-							Contact
-						</a>
+						<Link href="/experience">Experience</Link>
 					</div>
 					<div className={styles["mobile-link-contact"]}>
-						{darkModeToggle ? (
-							<a onClick={(e) => handleScroll(e, "contact")}>
-								<img src={contactD.src} />
-							</a>
-						) : (
-							<a onClick={(e) => handleScroll(e, "contact")}>
-								<img src={contactL.src} />
-							</a>
-						)}
+						<Link href="/experience">
+							<FontAwesomeIcon icon={faScroll} />
+						</Link>
 					</div>
 				</li>
 			</ul>
