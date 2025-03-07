@@ -10,7 +10,8 @@ import projectsD from "../../public/icons/projects-dark.svg";
 import contactL from "../../public/icons/contact.svg";
 import contactD from "../../public/icons/contact-dark.svg";
 import sun from "../../public/icons/sun.svg";
-import moon from "../../public/icons/moon.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon } from "@fortawesome/free-regular-svg-icons";
 
 export default function Navbar() {
 	const router = useRouter();
@@ -99,8 +100,8 @@ export default function Navbar() {
 						onClick={() => setDarkModeToggle(!darkModeToggle)}
 					/>
 				) : (
-					<img
-						src={moon.src}
+					<FontAwesomeIcon
+						icon={faMoon}
 						alt="moon icon"
 						className={styles["moon-icon"]}
 						onClick={() => setDarkModeToggle(!darkModeToggle)}

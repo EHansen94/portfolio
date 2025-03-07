@@ -79,7 +79,9 @@
 }
 
 .moon-icon {
-	width: 32px;
+	font-size: 28px;
+	padding-right: 4px;
+	padding-bottom: 4px;
 	cursor: pointer;
 }
 
