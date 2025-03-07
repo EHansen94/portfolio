@@ -70,7 +70,7 @@
 	flex-direction: row;
 	gap: 2rem;
 	opacity: 0;
-	transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+	transition: opacity 0.35s ease-in-out, transform 0.35s ease-in-out;
 }
 
 /* Show active slide */
@@ -83,7 +83,7 @@
 /* Hide inactive slides */
 .project.hidden {
 	opacity: 0;
-	transform: translateX(-50%) scale(0.9);
+	transform: translateX(-50%) scale(0.5);
 	z-index: 0;
 }
 
@@ -121,11 +121,30 @@
 .links {
 	display: flex;
 	padding-top: 2rem;
-	gap: 1rem;
+	gap: 2rem;
 }
 
-.links a:hover {
-	text-decoration: underline;
+.links a {
+	position: relative;
+	color: var(--primary-text);
+	font-size: 1.15rem;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.links a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 1px;
+	background-color: var(--primary-text);
+	transition: width 0.2s ease-in-out;
+}
+
+.links a:hover::after {
+	width: 100%;
 }
 
 /* Navigation Buttons */

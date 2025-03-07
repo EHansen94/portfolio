@@ -25,7 +25,7 @@ export default function ProjectsSlider({ projectData }) {
 	useEffect(() => {
 		const autoSlide = setInterval(() => {
 			nextSlide();
-		}, 12000);
+		}, 15000);
 		return () => clearInterval(autoSlide);
 	}, [currentIndex]);
 
