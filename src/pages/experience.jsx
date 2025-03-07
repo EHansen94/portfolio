@@ -16,13 +16,13 @@ export default function experience() {
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							While working as a Web Development Team Lead, I've
-							led 6 different teams to deliver high-quality
-							projects, while mentoring junior developers and
-							ensuring smooth collaboration across the team
-							members. Focused on building efficient and scalable
-							codebases, streamlining workflows, and aligning
-							development with client needs.
+							As a Web Development Team Lead, I've led 6 different
+							teams to deliver high-quality projects, while
+							mentoring junior developers and ensuring smooth
+							collaboration across the team members. Focused on
+							building efficient and scalable codebases,
+							streamlining workflows, and aligning development
+							with client needs.
 						</p>
 						<ul>
 							<li>
@@ -67,44 +67,58 @@ export default function experience() {
 							<h5>Sept. 2022 - Apr. 2023</h5>
 						</div>
 					</div>
-					<ul>
-						<li>
-							Collaborated closely with senior developers to
-							implement features and functionalities in various
-							web projects.
-						</li>
-						<li>
-							Actively participated in daily stand-up meetings to
-							report progress, discuss roadblocks, and contribute
-							to problem-solving discussions.
-						</li>
-						<li>
-							Assisted in the planning and execution of
-							development tasks within Agile/Scrum methodologies,
-							ensuring timely delivery of project milestones.
-						</li>
-						<li>
-							Contributed to the development of frontend
-							components using technologies such as React and
-							Next.js under the guidance of senior team members.
-						</li>
-						<li>
-							Engaged in code review processes, providing feedback
-							on peers' code contributions to ensure code quality
-							and maintain consistency in coding standards.
-						</li>
-						<li>
-							Worked closely with project managers to understand
-							project requirements, translating them into
-							actionable development tasks.
-						</li>
-						<li>
-							Assisted in the presentation of project prototypes
-							and final deliverables to internal stakeholders and
-							clients, ensuring alignment with project objectives
-							and client expectations.
-						</li>
-					</ul>
+					<div className={styles["job-description"]}>
+						<p>
+							As a Web Developer, I worked within a development
+							team led by a senior developer. I was responsible
+							for implementing features and functionalities in
+							various web projects, collaborating with team
+							members to ensure timely delivery of project
+							milestones while using tools such as React, Strapi,
+							and Figma.
+						</p>
+						<ul>
+							<li>
+								Collaborated closely with senior developers to
+								implement features and functionalities in
+								various web projects.
+							</li>
+							<li>
+								Actively participated in daily stand-up meetings
+								to report progress, discuss roadblocks, and
+								contribute to problem-solving discussions.
+							</li>
+							<li>
+								Assisted in the planning and execution of
+								development tasks within Agile/Scrum
+								methodologies, ensuring timely delivery of
+								project milestones.
+							</li>
+							<li>
+								Contributed to the development of frontend
+								components using technologies such as React and
+								Next.js under the guidance of senior team
+								members.
+							</li>
+							<li>
+								Engaged in code review processes, providing
+								feedback on peers' code contributions to ensure
+								code quality and maintain consistency in coding
+								standards.
+							</li>
+							<li>
+								Worked closely with project managers to
+								understand project requirements, translating
+								them into actionable development tasks.
+							</li>
+							<li>
+								Assisted in the presentation of project
+								prototypes and final deliverables to internal
+								stakeholders and clients, ensuring alignment
+								with project objectives and client expectations.
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
