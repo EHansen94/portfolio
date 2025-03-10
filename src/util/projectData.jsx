@@ -19,6 +19,11 @@ export const projectData = [
 		id: 2,
 		name: "Twenty Valley Golf Club",
 		image: "/images/tv.png",
+		galleryImages: [
+			"/images/PortfolioPhotos/TwentyValley/mainHero.png",
+			"/images/PortfolioPhotos/TwentyValley/course.png",
+			"/images/PortfolioPhotos/TwentyValley/courseOverview.png",
+		],
 		preview: "/images/tv-preview.png",
 		link: "https://www.twentyvalley.com/",
 		desc: `
