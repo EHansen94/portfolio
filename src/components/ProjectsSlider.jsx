@@ -55,7 +55,7 @@ export default function ProjectsSlider({ projectData }) {
 									src={project.image}
 									alt={project.name}
 									width={800}
-									height={300}
+									height={400}
 								/>
 							</div>
 

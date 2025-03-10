@@ -28,20 +28,30 @@ export const projectData = [
 			<>
 				I led the development team for the redesign of the Twenty Valley
 				Golf & Country Club website. <br /> <br /> Key features included
-				were hole-by-hole overviews, easy to update dining menu, a
-				members dashboard, and custom CMS for client content management
+				hole-by-hole overviews, easy to update dining menu, a members
+				dashboard, and custom CMS for client content management
 				(Strapi).
 			</>
 		),
 		tools: ["React", "Next.js", "TailwindCSS", "Strapi"],
 	},
-	// {
-	// 	id: 3,
-	// 	name: "Civiconnect",
-	// 	image: "/images/cc.png",
-	// 	link: "https://civiconnect.ca/",
-	// 	desc: "Civiconnect main website.",
-	// },
+	{
+		id: 3,
+		name: "Civiconnect",
+		preview: "/images/civi-preview.png",
+		image: "/images/civi.png",
+		link: "https://civiconnect.ca/",
+		desc: (
+			<>
+				I led the development team for the redesign of the Civiconnect
+				website. <br /> <br /> Key features included unique pages for
+				each department, custom blogs, jobs, and programs pages with
+				easily editable and flexible Strapi CMS integration, and
+				authentication system for user registration and program sign up.
+			</>
+		),
+		tools: ["React", "Next.js", "TailwindCSS", "CSS Modules", "Strapi"],
+	},
 
 	// Others to include: UMH, PNE, CERF, ALH, F4U, WCLA, Curly
 ];
