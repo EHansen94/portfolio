@@ -11,9 +11,6 @@ import {
 
 export default function Project({ project }) {
 	const router = useRouter();
-
-	console.log(project);
-
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const totalSlides = project.galleryImages.length;
 
@@ -65,6 +62,11 @@ export default function Project({ project }) {
 									width={1000}
 									height={1000}
 								/>
+								{/* <img
+									className={styles["image"]}
+									src={image}
+									alt={image.alt}
+								/> */}
 							</div>
 						</div>
 					))}
@@ -74,7 +76,7 @@ export default function Project({ project }) {
 				</button>
 			</div>
 			<div className={styles["dots"]}>
-				{projectData.map((_, index) => (
+				{project.galleryImages.map((_, index) => (
 					<span
 						key={index}
 						className={
