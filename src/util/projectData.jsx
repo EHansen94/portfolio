@@ -5,17 +5,14 @@ export const projectData = [
 		image: "/images/aoc.png",
 		preview: "/images/aok-preview.png",
 		link: "https://main.d2vlj2pormn3ke.amplifyapp.com/",
-		desc: (
-			<>
-				I led the development team for the Artists of Modern Kazakhstan
-				website, transforming the publication into an interactive
-				digital experience.
-				<br /> <br />
-				Key features included advanced search and filtering for artworks
-				and artists, multilingual support (English, Kazakh, Russian),
-				and a custom CMS (Strapi) for seamless content management.
-			</>
-		),
+		desc: `
+			I led the development team for the Artists of Modern Kazakhstan 
+			website, transforming the publication into an interactive digital experience.
+
+			Key features included advanced search and filtering for artworks 
+			and artists, multilingual support (English, Kazakh, Russian), 
+			and a custom CMS (Strapi) for seamless content management.
+		`,
 		tools: ["React", "Next.js", "CSS Modules", "Strapi"],
 	},
 	{
@@ -24,15 +21,14 @@ export const projectData = [
 		image: "/images/tv.png",
 		preview: "/images/tv-preview.png",
 		link: "https://www.twentyvalley.com/",
-		desc: (
-			<>
-				I led the development team for the redesign of the Twenty Valley
-				Golf & Country Club website. <br /> <br /> Key features included
-				hole-by-hole overviews, easy to update dining menu, a members
-				dashboard, and custom CMS for client content management
-				(Strapi).
-			</>
-		),
+		desc: `
+			I led the development team for the redesign of the Twenty Valley 
+			Golf & Country Club website.
+
+			Key features included hole-by-hole overviews, easy to update 
+			dining menu, a members dashboard, and custom CMS for client 
+			content management (Strapi).
+		`,
 		tools: ["React", "Next.js", "TailwindCSS", "Strapi"],
 	},
 	{
@@ -41,15 +37,12 @@ export const projectData = [
 		preview: "/images/civi-preview.png",
 		image: "/images/civi.png",
 		link: "https://civiconnect.ca/",
-		desc: (
-			<>
+		desc: `
 				I led the development team for the redesign of the Civiconnect
-				website. <br /> <br /> Key features included unique pages for
+				website. Key features included unique pages for
 				each department, custom blogs, jobs, and programs pages with
 				easily editable and flexible Strapi CMS integration, and
-				authentication system for user registration and program sign up.
-			</>
-		),
+				authentication system for user registration and program sign up.`,
 		tools: ["React", "Next.js", "TailwindCSS", "CSS Modules", "Strapi"],
 	},
 

@@ -1,0 +1,16 @@
+.page-container {
+	max-width: 1200px;
+	margin: 8.5rem auto 4rem auto;
+	padding: 0 20px;
+}
+
+.page-container h2 {
+	margin-bottom: 2rem;
+}
+
+.page-container img {
+	width: auto;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 8px;
+}

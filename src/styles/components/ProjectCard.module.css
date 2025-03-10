@@ -4,7 +4,6 @@
 }
 
 .project-card:hover {
-	opacity: 0.95;
 	scale: 1.02;
 	transition: all 0.1s ease-in;
 	cursor: pointer;
