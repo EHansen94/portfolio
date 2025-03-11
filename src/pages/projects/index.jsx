@@ -9,7 +9,7 @@ export default function Projects() {
 		<div className={styles["projects-page"]}>
 			<h2>My Projects</h2>
 			<div className={styles["projects"]}>
-				{projectData
+				{[...projectData]
 					.sort((a, b) => a.name.localeCompare(b.name))
 					.map((project, index) => (
 						<motion.div
