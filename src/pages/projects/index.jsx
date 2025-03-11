@@ -17,11 +17,11 @@ export default function Projects() {
 							key={project.id}
 							initial={{ opacity: 0, x: 80 }}
 							whileInView={{ opacity: 1, x: 0 }}
-							viewport={{ once: true }}
+							viewport={{ once: true, amount: 0.3 }}
 							transition={{
 								duration: 0.8,
 								ease: "easeOut",
-								delay: index * 0.2,
+								delay: (index % 2) * 0.15, // Dynamically delay only visible cards
 							}}
 						>
 							<ProjectCard project={project} />

@@ -96,5 +96,22 @@ export const projectData = [
 		tools: ["React", "TailwindCSS", "Stripe", "Strapi"],
 	},
 
-	// Others to include: PNE, CERF, ALH, F4U, WCLA, Curly
+	{
+		id: 5,
+		name: "CERF Niagara",
+		desc: `
+		I worked on the development team for the redesign of the CERF Niagara website. 
+		Key features include a full English/French translation with a language toggle, a fully-featured on site job board, 
+		appointment booking system (Calendly), and a custom multi-language CMS for client content management and custom page building (Strapi).`,
+		preview: "/images/cerf-preview.png",
+		galleryImages: [
+			"/images/PortfolioPhotos/CERF/hero.png",
+			"/images/PortfolioPhotos/CERF/jobs.png",
+			"/images/PortfolioPhotos/CERF/mission.png",
+			"/images/PortfolioPhotos/CERF/booking.png",
+			"/images/PortfolioPhotos/CERF/bio.png",
+		],
+		tools: ["React", "Strapi", "Calendly", "Google Locations API"],
+	},
+	// Others to include: PNE, ALH, F4U, WCLA, Curly
 ];
