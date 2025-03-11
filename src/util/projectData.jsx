@@ -104,6 +104,7 @@ export const projectData = [
 		Key features include a full English/French translation with a language toggle, a fully-featured on site job board, 
 		appointment booking system (Calendly), and a custom multi-language CMS for client content management and custom page building (Strapi).`,
 		preview: "/images/cerf-preview.png",
+		link: "https://cerfniagara.com/",
 		galleryImages: [
 			"/images/PortfolioPhotos/CERF/hero.png",
 			"/images/PortfolioPhotos/CERF/jobs.png",
