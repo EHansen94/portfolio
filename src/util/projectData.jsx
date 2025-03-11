@@ -74,5 +74,27 @@ export const projectData = [
 		tools: ["React", "Next.js", "TailwindCSS", "CSS Modules", "Strapi"],
 	},
 
-	// Others to include: UMH, PNE, CERF, ALH, F4U, WCLA, Curly
+	{
+		id: 4,
+		name: "United Mennonite Home",
+		desc: `
+			I led the development team for the redesign of the United Mennonite Home website.
+			Some key features included overall rebranding, integrated donations system (Stripe), careers page with client job posting management,
+			search and filtering dynamic resources page, and a custom CMS for client content management (Strapi), `,
+		link: "https://umh.ca/",
+		preview: "/images/umh-preview.png",
+		galleryImages: [
+			"/images/PortfolioPhotos/UMH/hero.png",
+			"/images/PortfolioPhotos/UMH/careers.png",
+			"/images/PortfolioPhotos/UMH/donate.png",
+			"/images/PortfolioPhotos/UMH/directory.png",
+			"/images/PortfolioPhotos/UMH/contactus.png",
+			"/images/PortfolioPhotos/UMH/resources.png",
+			"/images/PortfolioPhotos/UMH/gallery.png",
+			"/images/PortfolioPhotos/UMH/indvContact.png",
+		],
+		tools: ["React", "TailwindCSS", "Stripe", "Strapi"],
+	},
+
+	// Others to include: PNE, CERF, ALH, F4U, WCLA, Curly
 ];

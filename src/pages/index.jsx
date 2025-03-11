@@ -9,7 +9,7 @@ export default function home() {
 	return (
 		<div className={styles["page-container"]}>
 			<Intro />
-			<ProjectsSlider projectData={projectData} />
+			<ProjectsSlider projectData={projectData.slice(0, 3)} />
 			<Skills />
 		</div>
 	);
