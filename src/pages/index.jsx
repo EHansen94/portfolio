@@ -6,10 +6,24 @@ import { projectData } from "../util/projectData";
 import Skills from "@/components/Skills";
 
 export default function home() {
+	const goToProjects = () => {
+		const projectsSection = document.getElementById("projects");
+		if (projectsSection) {
+			const offset = 60; // Nav height
+			const top =
+				projectsSection.getBoundingClientRect().top +
+				window.scrollY -
+				offset;
+			window.scrollTo({ top, behavior: "smooth" });
+		}
+	};
+
 	return (
 		<div className={styles["page-container"]}>
-			<Intro />
-			<ProjectsSlider projectData={projectData.slice(0, 3)} />
+			<Intro buttonClick={goToProjects} />
+			<div id="projects">
+				<ProjectsSlider projectData={projectData.slice(0, 3)} />
+			</div>
 			<Skills />
 		</div>
 	);
