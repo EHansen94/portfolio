@@ -4,7 +4,7 @@ export const projectData = [
 		name: "Artists of Modern Kazakhstan",
 		image: "/images/aoc.png",
 		preview: "/images/aok-preview.png",
-		link: "https://main.d2vlj2pormn3ke.amplifyapp.com/",
+		link: "https://www.artists-of-kazakhstan.digitalcollections-civiconnect.com/",
 		galleryImages: [
 			"/images/PortfolioPhotos/ArtistsOfKaz/hero.png",
 			"/images/PortfolioPhotos/ArtistsOfKaz/artists.png",
