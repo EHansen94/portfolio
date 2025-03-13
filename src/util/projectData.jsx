@@ -40,8 +40,9 @@ export const projectData = [
 		],
 		preview: "/images/tv-preview.png",
 		link: "https://www.twentyvalley.com/",
-		summary:
-			"I led the development team for the redesign of the Twenty Valley Golf & Country Club website. Key features included an interactive hole-by-hole walkthrough, member-only dashboard, and custom CMS (Strapi) for flexible content management.",
+		summary: `I led the development team for the redesign of the Twenty Valley Golf & Country Club website.
+		<br/> <br/>
+		Key features included an interactive hole-by-hole walkthrough, member-only dashboard, and custom CMS (Strapi) for flexible content management.`,
 		desc: `
 I led the development team for the redesign of the Twenty Valley 
 Golf & Country Club website.

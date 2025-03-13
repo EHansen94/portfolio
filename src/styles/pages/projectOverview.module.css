@@ -126,3 +126,50 @@
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 }
+
+.markdown-wrapper li {
+	font-size: 1.15rem;
+	font-weight: 300;
+}
+
+.link {
+	margin-top: 2rem;
+}
+
+.link a {
+	color: var(--primary-text);
+	font-size: 1.25rem;
+	font-weight: 400;
+	text-decoration: none;
+	border: 1px solid var(--primary-text);
+	padding: 0.5rem 1rem;
+	border-radius: 8px;
+}
+
+.link a:hover {
+	background-color: var(--primary-text);
+	color: var(--primary-background);
+	transition: all 0.2s ease-in-out;
+}
+
+.tools {
+	margin-top: 2rem;
+}
+
+.tools ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	list-style-type: none;
+	padding-top: 2rem;
+	margin: 0;
+}
+
+.tools li {
+	background-color: var(--primary-text);
+	color: var(--primary-background);
+	font-size: 1.25rem;
+	font-weight: 400;
+	padding: 0.5rem 1rem;
+	border-radius: 8px;
+}

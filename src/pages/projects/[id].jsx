@@ -12,7 +12,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
-import "highlight.js/styles/github-dark.css"; // Change theme if needed
+import Link from "next/link";
 
 export default function Project({ project }) {
 	const router = useRouter();
@@ -50,6 +50,12 @@ export default function Project({ project }) {
 					{project.desc}
 				</ReactMarkdown>
 			</div>
+
+			{project.link && (
+				<div className={styles["link"]}>
+					<Link href={project.link}>Visit the Site</Link>
+				</div>
+			)}
 
 			<div className={styles["carousel-container"]}>
 				<button onClick={prevSlide} className={styles["nav-button"]}>
@@ -95,7 +101,7 @@ export default function Project({ project }) {
 				))}
 			</div>
 
-			<div>
+			<div className={styles["tools"]}>
 				<h3>Tools Used:</h3>
 				<ul>
 					{project.tools.map((tool, index) => (

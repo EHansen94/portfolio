@@ -7,6 +7,10 @@ import {
 	faChevronLeft,
 	faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import rehypeHighlight from "rehype-highlight";
 
 export default function ProjectsSlider({ projectData }) {
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,7 +66,17 @@ export default function ProjectsSlider({ projectData }) {
 							<div className={styles["content"]}>
 								<h3>{project.name}</h3>
 								<div className={styles["description"]}>
-									<p>{project.summary}</p>
+									<div className={styles["markdown-wrapper"]}>
+										<ReactMarkdown
+											remarkPlugins={[remarkGfm]}
+											rehypePlugins={[
+												rehypeRaw,
+												rehypeHighlight,
+											]}
+										>
+											{project.summary}
+										</ReactMarkdown>
+									</div>
 
 									<div className={styles["links"]}>
 										<Link href={`/projects/${project.id}`}>
