@@ -21,7 +21,7 @@ export default function Projects() {
 							transition={{
 								duration: 0.8,
 								ease: "easeOut",
-								delay: (index % 2) * 0.15, // Dynamically delay only visible cards
+								delay: (index % 2) * 0.15,
 							}}
 						>
 							<ProjectCard project={project} />

@@ -14,14 +14,14 @@ export const projectData = [
 			"/images/PortfolioPhotos/ArtistsOfKaz/modal.png",
 			"/images/PortfolioPhotos/ArtistsOfKaz/modal2.png",
 		],
-		desc: `
-			I led the development team for the Artists of Modern Kazakhstan 
+		summary: `I led the development team for the Artists of Modern Kazakhstan 
 			website, transforming the publication into an interactive digital experience.
-
+			<br/> <br/>
 			Key features included advanced search and filtering for artworks 
 			and artists, multilingual support (English, Kazakh, Russian), 
 			and a custom CMS (Strapi) for seamless content management.
 		`,
+		desc: `to do`,
 		tools: ["React", "Next.js", "CSS Modules", "Strapi"],
 	},
 	{
@@ -81,10 +81,8 @@ concept art presentations with multiple color palettes and immersive parallax ef
 			"/images/PortfolioPhotos/Civiconnect/expand.png",
 		],
 		link: "https://civiconnect.ca/",
-		desc: `
-				I led the development team for the redesign of the Civiconnect
-				website. Key features included unique pages for
-				each department, custom blogs, jobs, and programs pages with
+		summary: `I led the development team for the redesign of the Civiconnect
+				website. <br/> <br/> Key features included custom blogs, jobs, and programs pages with
 				easily editable and flexible Strapi CMS integration, and
 				authentication system for user registration and program sign up.`,
 		tools: ["React", "Next.js", "TailwindCSS", "CSS Modules", "Strapi"],
@@ -93,9 +91,8 @@ concept art presentations with multiple color palettes and immersive parallax ef
 	{
 		id: 4,
 		name: "United Mennonite Home",
-		desc: `
-			I led the development team for the redesign of the United Mennonite Home website.
-			Some key features included overall rebranding, integrated donations system (Stripe), careers page with client job posting management,
+		summary: `I led the development team for the redesign of the United Mennonite Home website.
+			<br/> <br/> Some key features included overall rebranding, integrated donations system (Stripe), careers page with client job posting management,
 			search and filtering dynamic resources page, and a custom CMS for client content management (Strapi), `,
 		link: "https://umh.ca/",
 		preview: "/images/umh-preview.png",
@@ -115,9 +112,8 @@ concept art presentations with multiple color palettes and immersive parallax ef
 	{
 		id: 5,
 		name: "CERF Niagara",
-		desc: `
-		I worked on the development team for the redesign of the CERF Niagara website. 
-		Key features include a full English/French translation with a language toggle, a fully-featured on site job board, 
+		summary: `I worked on the development team for the redesign of the CERF Niagara website.
+		<br/> <br/> Key features include a full English/French translation with a language toggle, a fully-featured on site job board, 
 		appointment booking system (Calendly), and a custom multi-language CMS for client content management and custom page building (Strapi).`,
 		preview: "/images/cerf-preview.png",
 		link: "https://cerfniagara.com/",

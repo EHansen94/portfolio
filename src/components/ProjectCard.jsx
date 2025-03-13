@@ -2,6 +2,10 @@ import React from "react";
 import styles from "@/styles/components/ProjectCard.module.css";
 import Image from "next/image";
 import Router from "next/router";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import rehypeHighlight from "rehype-highlight";
 
 export default function ProjectCard({ project }) {
 	const handleClick = () => {
@@ -20,8 +24,12 @@ export default function ProjectCard({ project }) {
 				<div className={styles["text"]}>
 					<h3>{project.name}</h3>
 					<p>
-						{project.desc}
-						<br />
+						<ReactMarkdown
+							remarkPlugins={[remarkGfm]}
+							rehypePlugins={[rehypeRaw, rehypeHighlight]}
+						>
+							{project.summary}
+						</ReactMarkdown>
 					</p>
 				</div>
 
