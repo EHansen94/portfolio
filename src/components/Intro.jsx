@@ -3,12 +3,18 @@ import styles from "@/styles/components/Intro.module.css";
 import image from "../../public/images/erik.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 export default function Intro({ buttonClick }) {
 	return (
 		<>
 			<div className={styles["container"]}>
-				<div className={styles["text"]}>
+				<motion.div
+					className={styles["text"]}
+					initial={{ opacity: 0, x: -20 }}
+					animate={{ opacity: 1, x: 0 }}
+					transition={{ duration: 1 }}
+				>
 					<h2>Hi, I'm Erik</h2>
 					<p>
 						I'm a Full Stack Web Developer and student majoring in
@@ -24,16 +30,31 @@ export default function Intro({ buttonClick }) {
 						mentoring junior developers, helping them grow their
 						skills and confidence in web development.
 					</p>
-				</div>
-				<div className={styles["image"]}>
+				</motion.div>
+				<motion.div
+					className={styles["image"]}
+					initial={{ opacity: 0, x: 20 }}
+					animate={{ opacity: 1, x: 0 }}
+					transition={{ duration: 1, delay: 0.5 }}
+				>
 					<img src={image.src} alt="Erik" />
-				</div>
+				</motion.div>
 			</div>
-			<div className={styles["button-container"]}>
-				<button onClick={buttonClick}>
+			<motion.div
+				className={styles["button-container"]}
+				initial={{ opacity: 0, y: 20 }}
+				animate={{ opacity: 1, y: 0 }}
+				transition={{ duration: 1, delay: 1 }}
+			>
+				<motion.button
+					onClick={buttonClick}
+					whileHover={{ scale: 1.1 }}
+					whileTap={{ scale: 0.9 }}
+					transition={{ type: "spring", stiffness: 300 }}
+				>
 					<FontAwesomeIcon icon={faChevronDown} />
-				</button>
-			</div>
+				</motion.button>
+			</motion.div>
 		</>
 	);
 }

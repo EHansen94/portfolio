@@ -53,7 +53,9 @@ export default function Project({ project }) {
 
 			{project.link && (
 				<div className={styles["link"]}>
-					<Link href={project.link}>Visit the Site</Link>
+					<Link href={project.link} target="_blank">
+						Visit the Site
+					</Link>
 				</div>
 			)}
 
