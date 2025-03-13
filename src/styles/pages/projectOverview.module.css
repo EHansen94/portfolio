@@ -121,3 +121,8 @@
 	background: var(--primary-text);
 	border-radius: 50%;
 }
+
+.markdown-wrapper h3 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}

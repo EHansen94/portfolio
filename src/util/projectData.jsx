@@ -40,13 +40,28 @@ export const projectData = [
 		],
 		preview: "/images/tv-preview.png",
 		link: "https://www.twentyvalley.com/",
+		summary:
+			"I led the development team for the redesign of the Twenty Valley Golf & Country Club website. Key features included an interactive hole-by-hole walkthrough, member-only dashboard, and custom CMS (Strapi) for flexible content management.",
 		desc: `
-			I led the development team for the redesign of the Twenty Valley 
-			Golf & Country Club website.
+I led the development team for the redesign of the Twenty Valley 
+Golf & Country Club website.
+<br/> <br/>
 
-			Key features included hole-by-hole overviews, easy to update 
-			dining menu, a members dashboard, and custom CMS for client 
-			content management (Strapi).
+Twenty Valley Golf and Country Club, 
+a semi-private golf course in the Niagara Peninsula, 
+sought a website appealing to both the public and members. 
+A member-only dashboard provided information hub and simplified tee time bookings.
+<br/> <br/>
+
+The website features an interactive hole-by-hole walkthrough, 
+allowing visitors to explore the course virtually. Additionally, 
+concept art presentations with multiple color palettes and immersive parallax effects enhanced visual appeal. 
+
+### Key Features:
+- Hole-by-hole overviews
+- Easy-to-update dining menu
+- Members Only dashboard 
+- Custom CMS (Strapi) for flexible content management
 		`,
 		tools: ["React", "Next.js", "TailwindCSS", "Strapi"],
 	},

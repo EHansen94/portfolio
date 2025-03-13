@@ -1,28 +1,30 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { projectData } from "../../util/projectData";
 import { useRouter } from "next/router";
+import { projectData } from "../../util/projectData";
 import styles from "@/styles/pages/projectOverview.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faChevronLeft,
 	faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import rehypeHighlight from "rehype-highlight";
+import "highlight.js/styles/github-dark.css"; // Change theme if needed
 
 export default function Project({ project }) {
 	const router = useRouter();
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const totalSlides = project.galleryImages.length;
 
-	const nextSlide = () => {
+	const nextSlide = () =>
 		setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-	};
-
-	const prevSlide = () => {
+	const prevSlide = () =>
 		setCurrentIndex(
 			(prevIndex) => (prevIndex - 1 + totalSlides) % totalSlides
 		);
-	};
 
 	useEffect(() => {
 		const autoSlide = setInterval(() => {
@@ -38,7 +40,16 @@ export default function Project({ project }) {
 	return (
 		<div className={styles["page-container"]}>
 			<h2>{project.name}</h2>
-			<p>{project.desc}</p>
+
+			{/* Markdown Description */}
+			<div className={styles["markdown-wrapper"]}>
+				<ReactMarkdown
+					remarkPlugins={[remarkGfm]}
+					rehypePlugins={[rehypeRaw, rehypeHighlight]}
+				>
+					{project.desc}
+				</ReactMarkdown>
+			</div>
 
 			<div className={styles["carousel-container"]}>
 				<button onClick={prevSlide} className={styles["nav-button"]}>
@@ -47,7 +58,7 @@ export default function Project({ project }) {
 				<div className={styles["carousel"]}>
 					{project.galleryImages.map((image, index) => (
 						<div
-							key={image.id}
+							key={image}
 							className={`${styles["item-wrapper"]} ${
 								index === currentIndex
 									? styles["active"]
@@ -56,17 +67,11 @@ export default function Project({ project }) {
 						>
 							<div className={styles["image-container"]}>
 								<Image
-									className={styles["image"]}
 									src={image}
-									alt={image.alt}
+									alt=""
 									width={1000}
 									height={1000}
 								/>
-								{/* <img
-									className={styles["image"]}
-									src={image}
-									alt={image.alt}
-								/> */}
 							</div>
 						</div>
 					))}
@@ -75,6 +80,7 @@ export default function Project({ project }) {
 					<FontAwesomeIcon icon={faChevronRight} />
 				</button>
 			</div>
+
 			<div className={styles["dots"]}>
 				{project.galleryImages.map((_, index) => (
 					<span
@@ -88,6 +94,7 @@ export default function Project({ project }) {
 					></span>
 				))}
 			</div>
+
 			<div>
 				<h3>Tools Used:</h3>
 				<ul>
@@ -105,22 +112,15 @@ export async function getStaticPaths() {
 		params: { id: project.id.toString() },
 	}));
 
-	return {
-		paths,
-		fallback: true,
-	};
+	return { paths, fallback: true };
 }
 
 export async function getStaticProps({ params }) {
 	const project = projectData.find((p) => p.id.toString() === params.id);
 
 	if (!project) {
-		return {
-			notFound: true,
-		};
+		return { notFound: true };
 	}
 
-	return {
-		props: { project },
-	};
+	return { props: { project } };
 }

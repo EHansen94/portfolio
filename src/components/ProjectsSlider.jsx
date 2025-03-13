@@ -62,7 +62,7 @@ export default function ProjectsSlider({ projectData }) {
 							<div className={styles["content"]}>
 								<h3>{project.name}</h3>
 								<div className={styles["description"]}>
-									<p>{project.desc}</p>
+									<p>{project.summary}</p>
 
 									<div className={styles["links"]}>
 										<Link href={`/projects/${project.id}`}>
