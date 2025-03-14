@@ -40,7 +40,7 @@ export const projectData = [
 		],
 		preview: "/images/tv-preview.png",
 		link: "https://www.twentyvalley.com/",
-		summary: `I led the development team for the redesign of the Twenty Valley Golf & Country Club website.
+		summary: `I led the development team for the redesign of the Twenty Valley Golf & Country Club website. Goals of the project were to enhance the functionalities and overall visual appeal of the original website.
 		<br/> <br/>
 		Key features included an interactive hole-by-hole walkthrough, member-only dashboard, and custom CMS (Strapi) for flexible content management.`,
 		desc: `
@@ -82,7 +82,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		],
 		link: "https://civiconnect.ca/",
 		summary: `I led the development team for the redesign of the Civiconnect
-				website. <br/> <br/> Key features included custom blogs, jobs, and programs pages with
+				website. As part of a company-wide rebranding, we created a user-centric design and a more comprehensive digital experience, enhancing functionality and engagement. <br/> <br/> Key features included custom blogs, jobs, and programs pages with
 				easily editable and flexible Strapi CMS integration, and
 				authentication system for user registration and program sign up.`,
 		tools: ["React", "Next.js", "TailwindCSS", "CSS Modules", "Strapi"],
