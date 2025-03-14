@@ -4,6 +4,10 @@ export const tech = [
 		img: "/images/logos/react.svg",
 	},
 	{
+		tech: "Next.js",
+		img: "/images/logos/nextjs.svg",
+	},
+	{
 		tech: "HTML",
 		img: "/images/logos/html.svg",
 	},
@@ -12,8 +16,16 @@ export const tech = [
 		img: "/images/logos/css.svg",
 	},
 	{
+		tech: "Tailwind CSS",
+		img: "/images/logos/tailwind.svg",
+	},
+	{
 		tech: "JavaScript",
 		img: "/images/logos/js.svg",
+	},
+	{
+		tech: "Node.js",
+		img: "/images/logos/nodejs.svg",
 	},
 	{
 		tech: "Strapi CMS",
@@ -23,10 +35,6 @@ export const tech = [
 		tech: "GitHub",
 		img: "/images/logos/github.svg",
 	},
-	// {
-	// 	tech: "git",
-	// 	img: "/images/logos/git.svg",
-	// },
 	{
 		tech: "Supabase",
 		img: "/images/logos/supabase.svg",
