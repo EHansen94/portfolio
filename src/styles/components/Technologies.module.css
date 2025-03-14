@@ -1,0 +1,55 @@
+.technologies-container {
+	max-width: 1140px;
+	margin: 0 auto;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.technologies-container h2 {
+	margin-bottom: 2rem;
+}
+
+.tech-slider {
+	display: flex;
+	gap: 2rem;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+}
+
+.slider-track {
+	display: flex;
+	margin-bottom: 2rem;
+	gap: 3rem;
+	animation: scroll 50s linear infinite;
+}
+
+.tech-card {
+	flex-shrink: 0;
+	text-align: center;
+	background: var(--primary-text);
+	border-radius: 8px;
+	padding: 0.5rem 1rem;
+}
+
+.tech-card p {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1rem;
+	color: var(--primary-text-reversed);
+}
+
+.tech-card img {
+	width: 80px;
+	height: auto;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-50%);
+	}
+}

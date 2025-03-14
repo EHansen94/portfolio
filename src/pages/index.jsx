@@ -3,8 +3,8 @@ import styles from "@/styles/pages/home.module.css";
 import Intro from "@/components/Intro";
 import ProjectsSlider from "@/components/ProjectsSlider";
 import { projectData } from "../util/projectData";
-import Skills from "@/components/Skills";
-import Contact from "@/components/Contact";
+import Technologies from "@/components/Technologies";
+import { tech } from "@/util/logos";
 
 export default function home() {
 	const goToProjects = () => {
@@ -25,8 +25,7 @@ export default function home() {
 			<div id="projects">
 				<ProjectsSlider projectData={projectData.slice(0, 3)} />
 			</div>
-			{/* <Skills /> */}
-			{/* <Contact /> */}
+			<Technologies technologies={tech} />
 		</div>
 	);
 }
