@@ -1,12 +1,24 @@
 import React from "react";
 import styles from "@/styles/pages/experience.module.css";
+import { motion } from "framer-motion";
 
 export default function experience() {
 	return (
 		<div className={styles["experience-container"]}>
-			<h2>Professional Experience</h2>
+			<motion.h2
+				initial={{ opacity: 0, x: -40 }}
+				animate={{ opacity: 1, x: 0 }}
+				transition={{ duration: 1.25 }}
+			>
+				Professional Experience
+			</motion.h2>
 			<div className={styles["experiences"]}>
-				<div className={styles["experience"]}>
+				<motion.div
+					className={styles["experience"]}
+					initial={{ opacity: 0, x: 40 }}
+					animate={{ opacity: 1, x: 0 }}
+					transition={{ duration: 1.25, delay: 0.625 }}
+				>
 					<div className={styles["job-title"]}>
 						<h4>Web Development Team Lead</h4>
 						<div className={styles["job-date"]}>
@@ -58,8 +70,13 @@ export default function experience() {
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div className={styles["experience"]}>
+				</motion.div>
+				<motion.div
+					className={styles["experience"]}
+					initial={{ opacity: 0, x: 40 }}
+					animate={{ opacity: 1, x: 0 }}
+					transition={{ duration: 1.25, delay: 1.25 }}
+				>
 					<div className={styles["job-title"]}>
 						<h4>Web Developer</h4>
 						<div className={styles["job-date"]}>
@@ -119,7 +136,7 @@ export default function experience() {
 							</li>
 						</ul>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);
