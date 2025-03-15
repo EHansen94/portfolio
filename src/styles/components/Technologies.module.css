@@ -33,7 +33,6 @@
 	background: var(--logo-background);
 	border-radius: 8px;
 	padding: 0.5rem 1rem;
-	box-shadow: var(--shadow);
 }
 
 .tech-card p {

@@ -4,7 +4,7 @@
 	--primary-background: #dadada;
 	--primary-background-2: #b8b8b8;
 	--logo-background: #b8b8b8;
-	--shadow: 2px 2px 1px #00000034;
+	/* --shadow: 2px 2px 1px #00000034; */
 }
 
 .dark-mode {
@@ -13,7 +13,7 @@
 	--primary-background: #131313;
 	--primary-background-2: #272727;
 	--logo-background: #d8d8d8;
-	--shadow: 2px 2px 1px #f0f0f0b2;
+	/* --shadow: 2px 2px 1px #f0f0f0b2; */
 }
 
 * {

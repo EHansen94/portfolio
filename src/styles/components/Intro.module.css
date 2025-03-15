@@ -77,11 +77,22 @@
 @media only screen and (max-width: 600px) {
 	.container {
 		flex-direction: column;
-		gap: 1.5rem;
+		gap: 2rem;
+		height: 100vh;
+		margin-top: 0;
 	}
 
 	.text {
 		max-width: 100%;
-		text-align: center;
+		text-align: left;
+	}
+
+	.text p {
+		font-size: 1.2rem;
+		line-height: 1.4;
+	}
+
+	.button-container {
+		display: none;
 	}
 }
