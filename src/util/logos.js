@@ -39,4 +39,20 @@ export const tech = [
 		tech: "Supabase",
 		img: "/images/logos/supabase.svg",
 	},
+	{
+		tech: "Firebase",
+		img: "/images/logos/firebase.svg",
+	},
+	{
+		tech: "SQL",
+		img: "/images/logos/sql.svg",
+	},
+	{
+		tech: "Vercel",
+		img: "/images/logos/vercel.svg",
+	},
+	{
+		tech: "AWS",
+		img: "/images/logos/aws.svg",
+	},
 ];

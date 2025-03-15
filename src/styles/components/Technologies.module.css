@@ -22,6 +22,7 @@
 .slider-track {
 	display: flex;
 	margin-bottom: 2rem;
+	padding: 1rem 0;
 	gap: 3rem;
 	animation: scroll 40s linear infinite;
 }
@@ -29,15 +30,16 @@
 .tech-card {
 	flex-shrink: 0;
 	text-align: center;
-	background: var(--primary-text);
+	background: var(--logo-background);
 	border-radius: 8px;
 	padding: 0.5rem 1rem;
+	box-shadow: var(--shadow);
 }
 
 .tech-card p {
 	font-family: "Noto Sans", sans-serif;
 	font-size: 1rem;
-	color: var(--primary-text-reversed);
+	color: var(--logo-text);
 }
 
 .tech-card img {
