@@ -24,6 +24,10 @@ export const tech = [
 		img: "/images/logos/js.svg",
 	},
 	{
+		tech: "Figma",
+		img: "/images/logos/figma.svg",
+	},
+	{
 		tech: "Node.js",
 		img: "/images/logos/nodejs.svg",
 	},

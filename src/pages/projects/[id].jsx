@@ -13,6 +13,7 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Project({ project }) {
 	const router = useRouter();
@@ -39,27 +40,48 @@ export default function Project({ project }) {
 
 	return (
 		<div className={styles["page-container"]}>
-			<h2>{project.name}</h2>
+			<motion.h2
+				initial={{ opacity: 0, x: 20 }}
+				animate={{ opacity: 1, x: 0 }}
+				transition={{ duration: 1, ease: "easeOut" }}
+			>
+				{project.name}
+			</motion.h2>
 
 			{/* Markdown Description */}
-			<div className={styles["markdown-wrapper"]}>
+			<motion.div
+				initial={{ opacity: 0, x: -20 }}
+				animate={{ opacity: 1, x: 0 }}
+				transition={{ duration: 1.25, delay: 0.5, ease: "easeOut" }}
+				className={styles["markdown-wrapper"]}
+			>
 				<ReactMarkdown
 					remarkPlugins={[remarkGfm]}
 					rehypePlugins={[rehypeRaw, rehypeHighlight]}
 				>
 					{project.desc}
 				</ReactMarkdown>
-			</div>
+			</motion.div>
 
 			{project.link && (
-				<div className={styles["link"]}>
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 1, delay: 1, ease: "easeOut" }}
+					className={styles["link"]}
+				>
 					<Link href={project.link} target="_blank">
 						Visit the Site
 					</Link>
-				</div>
+				</motion.div>
 			)}
 
-			<div className={styles["carousel-container"]}>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ duration: 1, delay: 1.8, ease: "easeOut" }}
+				className={styles["carousel-container"]}
+			>
 				<button onClick={prevSlide} className={styles["nav-button"]}>
 					<FontAwesomeIcon icon={faChevronLeft} />
 				</button>
@@ -87,7 +109,7 @@ export default function Project({ project }) {
 				<button onClick={nextSlide} className={styles["nav-button"]}>
 					<FontAwesomeIcon icon={faChevronRight} />
 				</button>
-			</div>
+			</motion.div>
 
 			<div className={styles["dots"]}>
 				{project.galleryImages.map((_, index) => (

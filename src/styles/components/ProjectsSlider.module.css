@@ -255,6 +255,16 @@
 		margin: 4rem auto 0 auto;
 	}
 
+	.header {
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.header a {
+		display: none;
+	}
+
 	.carousel {
 		height: 600px;
 	}
