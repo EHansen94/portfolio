@@ -248,5 +248,27 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "Styled JSX", "Figma", "Google Maps API", "MapMe"],
 	},
-	// Others to include: F4U, WCLA, Curly
+	// {
+	// 	id: 8,
+	// 	name: "Foods4U",
+	// 	summary: `I worked on the development team for Foods4U's website. The project included a full website design and development.
+	// 	<br/><br/>
+	// 	IN PROGRESS
+	// 	`,
+	// 	preview: "/images/f4u-preview.png",
+	// 	link: "https://foods4u.ca/",
+	// 	galleryImages: [
+	// 		"/images/PortfolioPhotos/F4U/hero.png",
+	// 		"/images/PortfolioPhotos/F4U/modal.png",
+	// 		"/images/PortfolioPhotos/F4U/menu.png",
+	// 		"/images/PortfolioPhotos/F4U/auth.png",
+	// 		"/images/PortfolioPhotos/F4U/rest.png",
+	// 	],
+	// 	desc: `I worked on the development team for Foods4U's website. The project included a full website design and development.
+	// 	<br/><br/>
+	// 	IN PROGRESS
+	// 	`,
+	// 	tools: ["React", "TailwindCSS", "Figma", "Strapi"],
+	// },
+	// Others to include: WCLA, Curly
 ];
