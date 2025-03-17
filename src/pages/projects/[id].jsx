@@ -15,6 +15,7 @@ import rehypeHighlight from "rehype-highlight";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 import { motion } from "framer-motion";
+import Slider from "react-slick";
 
 export default function Project({ project }) {
 	const router = useRouter();
@@ -90,6 +91,7 @@ export default function Project({ project }) {
 				<button onClick={prevSlide} className={styles["nav-button"]}>
 					<FontAwesomeIcon icon={faChevronLeft} />
 				</button>
+				{/* Carousel- desktop */}
 				<div className={styles["carousel"]}>
 					{project.galleryImages.map((image, index) => (
 						<div
@@ -128,6 +130,32 @@ export default function Project({ project }) {
 						onClick={() => setCurrentIndex(index)}
 					></span>
 				))}
+			</div>
+
+			{/* Carousel- mobile */}
+			<div className={styles["mobile-carousel"]}>
+				<Slider
+					infinite={true}
+					speed={500}
+					slidesToShow={1}
+					slidesToScroll={1}
+					autoplay={true}
+					autoplaySpeed={15000}
+					arrows={false}
+					dots={false}
+					className={styles["carousel-mobile"]}
+				>
+					{project.galleryImages.map((image, index) => (
+						<div
+							key={index}
+							className={styles["slick-item-wrapper"]}
+						>
+							<div className={styles["slick-image-container"]}>
+								<img src={image} alt="" />
+							</div>
+						</div>
+					))}
+				</Slider>
 			</div>
 
 			<div className={styles["tools"]}>

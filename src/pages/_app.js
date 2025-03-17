@@ -3,6 +3,8 @@ import { DarkModeProvider } from "@/util/darkModeContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
