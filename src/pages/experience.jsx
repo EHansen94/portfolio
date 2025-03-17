@@ -1,10 +1,15 @@
 import React from "react";
 import styles from "@/styles/pages/experience.module.css";
 import { motion } from "framer-motion";
+import { NextSeo } from "next-seo";
 
 export default function experience() {
 	return (
 		<div className={styles["experience-container"]}>
+			<NextSeo
+				title="My Experience | Erik Hansen"
+				description="Professional experience and work history."
+			/>
 			<motion.h2
 				initial={{ opacity: 0, x: -40 }}
 				animate={{ opacity: 1, x: 0 }}

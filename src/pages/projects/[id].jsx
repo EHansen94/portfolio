@@ -13,6 +13,7 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 import { motion } from "framer-motion";
 
 export default function Project({ project }) {
@@ -40,6 +41,10 @@ export default function Project({ project }) {
 
 	return (
 		<div className={styles["page-container"]}>
+			<NextSeo
+				title={`${project.name} | Erik Hansen`}
+				description={project.desc}
+			/>
 			<motion.h2
 				initial={{ opacity: 0, x: 20 }}
 				animate={{ opacity: 1, x: 0 }}

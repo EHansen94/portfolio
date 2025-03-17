@@ -5,6 +5,7 @@ import ProjectsSlider from "@/components/ProjectsSlider";
 import { projectData } from "../util/projectData";
 import Technologies from "@/components/Technologies";
 import { tech } from "@/util/logos";
+import { NextSeo } from "next-seo";
 
 export default function home() {
 	const goToProjects = () => {
@@ -21,6 +22,10 @@ export default function home() {
 
 	return (
 		<div className={styles["page-container"]}>
+			<NextSeo
+				title="Portfolio | Erik Hansen"
+				description="A portfolio website for showcasing my projects and skills."
+			/>
 			<Intro buttonClick={goToProjects} />
 			<div id="projects">
 				<ProjectsSlider projectData={projectData.slice(0, 3)} />
