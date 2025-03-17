@@ -177,5 +177,35 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "Strapi", "Calendly", "Google Locations API"],
 	},
-	// Others to include: PNE, ALH, F4U, WCLA, Curly
+	{
+		id: 6,
+		name: "Property Network Egypt",
+		summary: `I led the development team for Property Network Egypt's website. The project included a full website design and development. 
+		<br/><br/> Key features included full English and Arabic support with sitewide styling reverse (right-to-left text and components), custom search and filtering system, dynamic property map, and a custom Strapi CMS for property and content management with full English and Arabic support. 
+		`,
+		preview: "/images/pne-preview.png",
+		link: "https://buyinegypt.com/",
+		galleryImages: [
+			"/images/PortfolioPhotos/PNE/heroEN.png",
+			"/images/PortfolioPhotos/PNE/heroAR.png",
+			"/images/PortfolioPhotos/PNE/invest.png",
+			"/images/PortfolioPhotos/PNE/map.png",
+			"/images/PortfolioPhotos/PNE/indv.png",
+			"/images/PortfolioPhotos/PNE/stepsEN.png",
+			"/images/PortfolioPhotos/PNE/stepsAR.png",
+		],
+		desc: `I led the development team for Property Network Egypt's website. The project included a full website design and development.
+		<br/><br/>
+		Property Network Egypt is a real estate agency that specializes in connecting clients with properties in Egypt. The website features full English and Arabic support with sitewide styling reverse (right-to-left text and components), a custom property search and filtering system, and a dynamic property map.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Full English and Arabic support with sitewide styling reverse</li>
+		<li>Custom property search and filtering system</li>
+		<li>Dynamic property map</li>
+		<li>Custom Strapi CMS for property and content management with full English and Arabic support</li>
+		</ul>
+		`,
+		tools: ["React", "CSS Modules", "Strapi", "Google Maps API"],
+	},
+	// Others to include: ALH, F4U, WCLA, Curly
 ];
