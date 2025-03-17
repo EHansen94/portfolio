@@ -106,8 +106,8 @@ export default function Project({ project }) {
 								<Image
 									src={image}
 									alt=""
-									width={1000}
-									height={1000}
+									width={800}
+									height={600}
 								/>
 							</div>
 						</div>
