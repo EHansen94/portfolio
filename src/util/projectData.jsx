@@ -21,7 +21,19 @@ export const projectData = [
 			and artists, multilingual support (English, Kazakh, Russian), 
 			and a custom CMS (Strapi) for seamless content management.
 		`,
-		desc: `to do`,
+		desc: `I led the development team for the Artists of Modern Kazakhstan website, transforming the publication into an interactive digital experience.
+		<br/> <br/>The Artists of Modern Kazakhstan website showcases the works of Kazakh artists, 
+		providing a platform for the public to explore and learn about the country's art scene. 
+		The website features over 180 artworks from over 50 artists.
+		<br/>
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Advanced search and filtering for artworks and artists</li>
+		<li>Full multi-language support (English, Kazakh, Russian)</li>
+		<li>Interactive masonry gallery</li>
+		<li>Custom CMS (Strapi) for seamless content management</li>
+		</ul>
+		`,
 		tools: ["React", "Next.js", "CSS Modules", "Strapi"],
 	},
 	{
@@ -58,11 +70,14 @@ The website features an interactive hole-by-hole walkthrough,
 allowing visitors to explore the course virtually. Additionally, 
 concept art presentations with multiple color palettes and immersive parallax effects enhanced visual appeal. 
 
-### Key Features:
-- Hole-by-hole overviews
-- Easy-to-update dining menu
-- Members Only dashboard 
-- Custom CMS (Strapi) for flexible content management
+<h3> Key Features:</h3>
+<ul>
+<li>Interactive hole-by-hole walkthrough</li>
+<li>Flexible & dynamic menu for dining options</li>
+<li>Member-only dashboard</li>
+<li>Immersive parallax effects</li>
+<li>Custom CMS (Strapi) for flexible content management</li>
+</ul>
 		`,
 		tools: ["React", "Next.js", "TailwindCSS", "Strapi"],
 	},
@@ -85,6 +100,18 @@ concept art presentations with multiple color palettes and immersive parallax ef
 				website. As part of a company-wide rebranding, we created a user-centric design and a more comprehensive digital experience, enhancing functionality and engagement. <br/> <br/> Key features included custom blogs, jobs, and programs pages with
 				easily editable and flexible Strapi CMS integration, and
 				authentication system for user registration and program sign up.`,
+		desc: `I led the development team for the redesign of the Civiconnect website. As part of a company-wide rebranding, we created a user-centric design and a more comprehensive digital experience, enhancing functionality, engagement, and streamlining scalability.
+		<br/> <br/>
+		Civiconnect is a non profit that gives youth opportunities to work on real world projects in various fields of work. The website features custom blogs, jobs, and programs pages with easily editable and flexible Strapi CMS integration. An authentication system allows users to register and sign up for programs.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Dynamic filtering and search for blogs and jobs</li>
+		<li>Detailed and customizable pages for all departments</li>
+		<li>Authentication system for user registration and program sign up</li>
+		<li>Custom photo galleries, carousels, and interactive elements</li>
+		<li>Custom CMS (Strapi) for flexible content management</li>
+		</ul>
+		`,
 		tools: ["React", "Next.js", "TailwindCSS", "CSS Modules", "Strapi"],
 	},
 
