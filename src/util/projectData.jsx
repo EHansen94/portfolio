@@ -97,9 +97,9 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		],
 		link: "https://civiconnect.ca/",
 		summary: `I led the development team for the redesign of the Civiconnect
-				website. As part of a company-wide rebranding, we created a user-centric design and a more comprehensive digital experience, enhancing functionality and engagement. <br/> <br/> Key features included custom blogs, jobs, and programs pages with
+				website. As part of a company-wide rebranding, we created a more comprehensive digital experience, enhancing functionality and engagement. <br/> <br/> Key features included custom blogs, jobs, and programs pages with
 				easily editable and flexible Strapi CMS integration, and
-				authentication system for user registration and program sign up.`,
+				authentication system for program sign up.`,
 		desc: `I led the development team for the redesign of the Civiconnect website. As part of a company-wide rebranding, we created a user-centric design and a more comprehensive digital experience, enhancing functionality, engagement, and streamlining scalability.
 		<br/> <br/>
 		Civiconnect is a non profit that gives youth opportunities to work on real world projects in various fields of work. The website features custom blogs, jobs, and programs pages with easily editable and flexible Strapi CMS integration. An authentication system allows users to register and sign up for programs.

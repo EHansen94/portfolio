@@ -275,7 +275,7 @@
 	}
 
 	.content {
-		width: 100%;
+		width: 90%;
 		gap: 1rem;
 	}
 
@@ -289,7 +289,25 @@
 	}
 
 	.nav-button {
-		width: 30px;
+		width: 24px;
+	}
+
+	.nav-button:first-of-type {
+		left: 0px;
+	}
+
+	.nav-button:last-of-type {
+		right: 0px;
+	}
+}
+
+@media only screen and (max-width: 512px) {
+	.carousel {
+		height: 800px;
+	}
+
+	.nav-button {
+		top: 25%;
 	}
 
 	.nav-button:first-of-type {
