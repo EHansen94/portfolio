@@ -91,12 +91,4 @@
 		height: fit-content;
 		object-fit: contain;
 	}
-
-	.text h3 {
-		font-size: 1.25rem;
-	}
-
-	.text p {
-		font-size: 1rem;
-	}
 }
