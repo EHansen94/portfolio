@@ -163,6 +163,18 @@ concept art presentations with multiple color palettes and immersive parallax ef
 			"/images/PortfolioPhotos/CERF/booking.png",
 			"/images/PortfolioPhotos/CERF/bio.png",
 		],
+		desc: `I worked on the development team for the redesign of the CERF Niagara website. The project included a full redesign and enhanced functionality.
+		<br/> <br/>
+		CERF Niagara is a non-profit organization that provides employment services to the Niagara region. The website features a full English/French translation with a language toggle, a fully-featured on-site job board, and an appointment booking system (Calendly).
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Full English/French translation with language toggle</li>
+		<li>On-site job board with full search and filter functionality</li>
+		<li>Appointment booking system (Calendly)</li>
+		<li>Authentication system for employer job posting</li>
+		<li>Custom multi-language CMS for client content management and custom page building (Strapi)</li>
+		</ul>
+		`,
 		tools: ["React", "Strapi", "Calendly", "Google Locations API"],
 	},
 	// Others to include: PNE, ALH, F4U, WCLA, Curly
