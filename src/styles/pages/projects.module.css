@@ -11,15 +11,15 @@
 .projects {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 3.5rem;
+	grid-gap: 3rem;
 	align-items: stretch;
 }
 
-.project-item {
+/* .project-item {
 	display: flex;
 	flex-direction: column;
 	gap: 2.5rem;
-}
+} */
 
 @media screen and (max-width: 856px) {
 	.projects-page {

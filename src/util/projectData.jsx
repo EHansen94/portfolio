@@ -214,5 +214,39 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "CSS Modules", "Figma", "Strapi", "Google Maps API"],
 	},
-	// Others to include: ALH, F4U, WCLA, Curly
+	{
+		id: 7,
+		name: "Art Lives Here",
+		summary: `I worked on the development team for Art Lives Here's website. The project included a full website design and development.
+		<br/><br/>
+		Art Lives Here is a celebration of Lincoln’s vibrant arts, culture, and heritage community. 
+		The platform is used to plan your exploration of Lincoln, Ontario’s creative spaces, heritage buildings, historic sites, museums, and galleries. 
+		`,
+		preview: "/images/alh-preview.png",
+		link: "https://www.artliveshere.info/",
+		galleryImages: [
+			"/images/PortfolioPhotos/ALH/hero.png",
+			"/images/PortfolioPhotos/ALH/search.png",
+			"/images/PortfolioPhotos/ALH/map.png",
+			"/images/PortfolioPhotos/ALH/artist.png",
+			"/images/PortfolioPhotos/ALH/event.png",
+			"/images/PortfolioPhotos/ALH/event2.png",
+			"/images/PortfolioPhotos/ALH/info.png",
+		],
+		desc: `I worked on the development team for Art Lives Here's website. The project included a full website design and development.
+		<br/><br/>
+		Art Lives Here is a celebration of Lincoln’s vibrant arts, culture, and heritage community. 
+		The platform is used to plan your exploration of Lincoln, Ontario’s creative spaces, heritage buildings, historic sites, museums, and galleries.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Authentication system for Artists</li>
+		<li>Custom interactive map</li>
+		<li>Search system for Artists, Businesses, and Events</li>
+		<li>Dynamic artist, business, and event pages with detailed information</li>
+		<li>Custom CMS (Strapi) for admin content management</li>
+		</ul>
+		`,
+		tools: ["React", "Styled JSX", "Figma", "Google Maps API", "MapMe"],
+	},
+	// Others to include: F4U, WCLA, Curly
 ];
