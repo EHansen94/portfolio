@@ -4,13 +4,13 @@
 	left: 0;
 	width: 100%;
 	z-index: 1000;
-	background: transparent;
+	background: var(--primary-background);
 	height: 60px;
 	padding: 24px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* border-bottom: 1px solid var(--primary-text); */
+	transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .nav-links {

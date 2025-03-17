@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { useRouter } from "next/router";
 import { DarkModeContext } from "@/util/darkModeContext";
 import Link from "next/link";
@@ -16,14 +16,23 @@ export default function Navbar() {
 	const router = useRouter();
 	const [darkModeToggle, setDarkModeToggle] = useContext(DarkModeContext);
 
-	const handleScroll = (e, id) => {
-		e.preventDefault();
-		if (router.pathname !== "/") {
-			router.push(`/#${id}`);
-		} else {
-			document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-		}
-	};
+	// useEffect(() => {
+	// 	const handleScroll = () => {
+	// 		const navbar = document.querySelector(
+	// 			`.${styles["navbar-container"]}`
+	// 		);
+	// 		if (window.scrollY > 0) {
+	// 			navbar.classList.add(styles["scrolled"]);
+	// 		} else {
+	// 			navbar.classList.remove(styles["scrolled"]);
+	// 		}
+	// 	};
+
+	// 	window.addEventListener("scroll", handleScroll);
+	// 	return () => {
+	// 		window.removeEventListener("scroll", handleScroll);
+	// 	};
+	// }, []);
 
 	return (
 		<nav className={styles["navbar-container"]}>
