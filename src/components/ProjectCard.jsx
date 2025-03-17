@@ -14,6 +14,7 @@ export default function ProjectCard({ project }) {
 
 	return (
 		<div className={styles["project-card"]} onClick={handleClick}>
+			<div className={styles["line"]}></div>
 			<div className={styles["content"]}>
 				<Image
 					src={project.preview}
