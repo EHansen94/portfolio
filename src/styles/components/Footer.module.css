@@ -55,3 +55,18 @@
 	color: var(--primary-text);
 	font-size: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+	.footer-container {
+		height: 120px;
+	}
+
+	.footer-content {
+		flex-direction: column-reverse;
+		justify-content: center;
+		text-align: center;
+	}
+	.contact-links {
+		margin-bottom: 1.5rem;
+	}
+}
