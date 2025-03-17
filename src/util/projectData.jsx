@@ -133,6 +133,18 @@ concept art presentations with multiple color palettes and immersive parallax ef
 			"/images/PortfolioPhotos/UMH/gallery.png",
 			"/images/PortfolioPhotos/UMH/indvContact.png",
 		],
+		desc: `I led the development team for the redesign of the United Mennonite Home website. The project included overall rebranding, a new design, and enhanced functionality.
+		<br/> <br/>
+		United Mennonite Home, a long-term care facility in Vineland, Ontario, sought a website that reflected their commitment to quality care and community. The website features an integrated donations system (Stripe), a careers page with client job posting management, and a search and filtering dynamic resources page.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Integrated donations system (Stripe)</li>
+		<li>Careers page with client job posting management</li>
+		<li>CMS manageable extension directory for staff and resident resources</li>
+		<li>Search and filterable dynamic resources page</li>
+		<li>Customizable buildable page system (through clients Strapi dashboard) for on site resources</li>
+		<li>Custom CMS (Strapi) for client content management</li>
+		`,
 		tools: ["React", "TailwindCSS", "Stripe", "Strapi"],
 	},
 
