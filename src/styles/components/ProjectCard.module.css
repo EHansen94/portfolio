@@ -45,3 +45,49 @@
 	padding: 0.25rem 0.5rem;
 	border-radius: 8px;
 }
+
+@media screen and (max-width: 1000px) {
+	.project-card img {
+		height: 240px;
+	}
+
+	.text {
+		padding: 1.5rem 0;
+	}
+
+	.text h3 {
+		font-size: 1.5rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.text p {
+		font-size: 1.15rem;
+	}
+}
+
+@media screen and (max-width: 856px) {
+	.project-card img {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.project-card img {
+		height: 320px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.project-card img {
+		height: fit-content;
+		object-fit: contain;
+	}
+
+	.text h3 {
+		font-size: 1.25rem;
+	}
+
+	.text p {
+		font-size: 1rem;
+	}
+}

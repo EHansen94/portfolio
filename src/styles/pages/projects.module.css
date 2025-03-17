@@ -20,3 +20,14 @@
 	flex-direction: column;
 	gap: 2.5rem;
 }
+
+@media screen and (max-width: 856px) {
+	.projects-page {
+		padding: 2.5rem;
+		margin: 4.5rem auto 2.5rem auto;
+	}
+
+	.projects {
+		grid-template-columns: 1fr;
+	}
+}

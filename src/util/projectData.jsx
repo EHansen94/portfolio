@@ -34,7 +34,7 @@ export const projectData = [
 		<li>Custom CMS (Strapi) for seamless content management</li>
 		</ul>
 		`,
-		tools: ["React", "Next.js", "CSS Modules", "Strapi"],
+		tools: ["React", "Next.js", "CSS Modules", "Figma", "Strapi"],
 	},
 	{
 		id: 2,
@@ -79,7 +79,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 <li>Custom CMS (Strapi) for flexible content management</li>
 </ul>
 		`,
-		tools: ["React", "Next.js", "TailwindCSS", "Strapi"],
+		tools: ["React", "Next.js", "TailwindCSS", "Figma", "Strapi"],
 	},
 	{
 		id: 3,
@@ -112,7 +112,14 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		<li>Custom CMS (Strapi) for flexible content management</li>
 		</ul>
 		`,
-		tools: ["React", "Next.js", "TailwindCSS", "CSS Modules", "Strapi"],
+		tools: [
+			"React",
+			"Next.js",
+			"TailwindCSS",
+			"CSS Modules",
+			"Figma",
+			"Strapi",
+		],
 	},
 
 	{
@@ -145,7 +152,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		<li>Customizable buildable page system (through clients Strapi dashboard) for on site resources</li>
 		<li>Custom CMS (Strapi) for client content management</li>
 		`,
-		tools: ["React", "TailwindCSS", "Stripe", "Strapi"],
+		tools: ["React", "TailwindCSS", "Figma", "Stripe", "Strapi"],
 	},
 
 	{
@@ -175,7 +182,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		<li>Custom multi-language CMS for client content management and custom page building (Strapi)</li>
 		</ul>
 		`,
-		tools: ["React", "Strapi", "Calendly", "Google Locations API"],
+		tools: ["React", "Strapi", "Figma", "Calendly", "Google Locations API"],
 	},
 	{
 		id: 6,
@@ -205,7 +212,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		<li>Custom Strapi CMS for property and content management with full English and Arabic support</li>
 		</ul>
 		`,
-		tools: ["React", "CSS Modules", "Strapi", "Google Maps API"],
+		tools: ["React", "CSS Modules", "Figma", "Strapi", "Google Maps API"],
 	},
 	// Others to include: ALH, F4U, WCLA, Curly
 ];
