@@ -16,23 +16,23 @@ export default function Navbar() {
 	const router = useRouter();
 	const [darkModeToggle, setDarkModeToggle] = useContext(DarkModeContext);
 
-	// useEffect(() => {
-	// 	const handleScroll = () => {
-	// 		const navbar = document.querySelector(
-	// 			`.${styles["navbar-container"]}`
-	// 		);
-	// 		if (window.scrollY > 0) {
-	// 			navbar.classList.add(styles["scrolled"]);
-	// 		} else {
-	// 			navbar.classList.remove(styles["scrolled"]);
-	// 		}
-	// 	};
+	useEffect(() => {
+		const handleScroll = () => {
+			const navbar = document.querySelector(
+				`.${styles["navbar-container"]}`
+			);
+			if (window.scrollY > 0) {
+				navbar.classList.add(styles["scrolled"]);
+			} else {
+				navbar.classList.remove(styles["scrolled"]);
+			}
+		};
 
-	// 	window.addEventListener("scroll", handleScroll);
-	// 	return () => {
-	// 		window.removeEventListener("scroll", handleScroll);
-	// 	};
-	// }, []);
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
 
 	return (
 		<nav className={styles["navbar-container"]}>
@@ -81,17 +81,17 @@ export default function Navbar() {
 			</ul>
 			<div className={styles["toggle-container"]}>
 				{darkModeToggle ? (
-					<img
-						src={sun.src}
-						alt="sun icon"
-						className={styles["sun-icon"]}
-						onClick={() => setDarkModeToggle(!darkModeToggle)}
-					/>
-				) : (
 					<FontAwesomeIcon
 						icon={faMoon}
 						alt="moon icon"
 						className={styles["moon-icon"]}
+						onClick={() => setDarkModeToggle(!darkModeToggle)}
+					/>
+				) : (
+					<img
+						src={sun.src}
+						alt="sun icon"
+						className={styles["sun-icon"]}
 						onClick={() => setDarkModeToggle(!darkModeToggle)}
 					/>
 				)}

@@ -8,7 +8,7 @@ export const DarkModeProvider = ({ children }) => {
 
 	useEffect(() => {
 		if (typeof window !== "undefined") {
-			const storedMode = JSON.parse(localStorage.getItem("darkMode"));
+			const storedMode = JSON.parse(localStorage.getItem("lightMode"));
 			if (storedMode !== null) {
 				setDarkModeToggle(storedMode);
 			}
@@ -19,11 +19,11 @@ export const DarkModeProvider = ({ children }) => {
 	// Effect to add/remove class and persist to local storage
 	useEffect(() => {
 		if (darkModeToggle) {
-			document.body.classList.add("dark-mode");
+			document.body.classList.add("light-mode");
 			localStorage.setItem("darkMode", JSON.stringify(true));
 		} else {
-			document.body.classList.remove("dark-mode");
-			localStorage.setItem("darkMode", JSON.stringify(false));
+			document.body.classList.remove("light-mode");
+			localStorage.setItem("lightMode", JSON.stringify(false));
 		}
 	}, [darkModeToggle]);
 
