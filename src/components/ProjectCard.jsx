@@ -28,6 +28,13 @@ export default function ProjectCard({ project }) {
 						<ReactMarkdown
 							remarkPlugins={[remarkGfm]}
 							rehypePlugins={[rehypeRaw, rehypeHighlight]}
+							components={{
+								p: ({ node, ...props }) => <p {...props} />,
+								h3: ({ node, ...props }) => <h3 {...props} />,
+								ul: ({ node, ...props }) => <ul {...props} />,
+								li: ({ node, ...props }) => <li {...props} />,
+								br: () => <br />,
+							}}
 						>
 							{project.summary}
 						</ReactMarkdown>
