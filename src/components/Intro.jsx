@@ -26,8 +26,8 @@ export default function Intro({ buttonClick }) {
 						as a Web Development Team Lead.
 						<br />
 						<br />
-						I&apos;m passionate about building custom visually
-						appealing and highly functional applications. I also
+						I&apos;m passionate about building custom, visually
+						appealing, and highly functional applications. I also
 						enjoy mentoring junior developers, helping them grow
 						their skills and confidence in web development.
 					</p>
