@@ -283,7 +283,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		<li>Custom CMS (Strapi) for admin content management</li>
 		</ul>
 		`,
-		tools: ["React", "TailwindCSS", "Figma", "Strapi"],
+		tools: ["React", "Next.js", "TailwindCSS", "Figma", "Strapi"],
 	},
 	// Others to include: WCLA, Curly
 ];
