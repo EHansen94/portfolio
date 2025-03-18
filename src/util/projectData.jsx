@@ -254,9 +254,9 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		summary: `I worked on the development team for Foods4U's website. The project included a full website design and development.
 		<br/><br/>
 		Key features included user authentication systems for user profiles and restaurant owners, 
-		user profiles with saved preferences,
+		saved preferences for users,
 		dynamic restaurant pages and menus, 
-		personal restaurant admin dashboards with customization for menu items and other info, 
+		personal restaurant admin dashboards, 
 		and a custom CMS (Strapi) for admin content management.
 		`,
 		preview: "/images/f4u-preview.png",
@@ -272,7 +272,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		<br/><br/>
 		Foods4U focuses on helping users find eateries that cater to specific dietary needs, such as vegetarian, vegan, gluten-free, or allergen-friendly options. The platform ensures that users can make informed dining choices that align with their dietary preferences and restrictions.
 		<br/><br/>
-		*The site is live, but the client is still in the early stages of making use of the platform.
+		*The site is live, but the client is in the early stages of making use of the platform.
 		<h3> Key Features:</h3>
 		<ul>
 		<li>User authentication systems for user profiles and restaurant owners</li>
