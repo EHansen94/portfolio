@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import styles from "@/styles/components/ProjectsSlider.module.css";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,6 +10,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
+import next from "next";
 
 export default function ProjectsSlider({ projectData }) {
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,7 +37,7 @@ export default function ProjectsSlider({ projectData }) {
 		<div className={styles["wrapper"]}>
 			<div className={styles["header"]}>
 				<h2>Recent Projects</h2>
-				<a href="/projects">View All Projects</a>
+				<Link href="/projects">View All Projects</Link>
 			</div>
 			<div className={styles["carousel-container"]}>
 				<button onClick={prevSlide} className={styles["nav-button"]}>

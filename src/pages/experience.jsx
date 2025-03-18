@@ -33,13 +33,13 @@ export default function experience() {
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							As a Web Development Team Lead, I've led 6 different
-							teams to deliver high-quality projects, while
-							mentoring junior developers and ensuring smooth
-							collaboration across the team members. Focused on
-							building efficient and scalable codebases,
-							streamlining workflows, and aligning development
-							with client needs.
+							As a Web Development Team Lead, I&apos;ve led 6
+							different teams to deliver high-quality projects,
+							while mentoring junior developers and ensuring
+							smooth collaboration across the team members.
+							Focused on building efficient and scalable
+							codebases, streamlining workflows, and aligning
+							development with client needs.
 						</p>
 						<ul>
 							<li>
@@ -124,9 +124,9 @@ export default function experience() {
 							</li>
 							<li>
 								Engaged in code review processes, providing
-								feedback on peers' code contributions to ensure
-								code quality and maintain consistency in coding
-								standards.
+								feedback on peers&apos; code contributions to
+								ensure code quality and maintain consistency in
+								coding standards.
 							</li>
 							<li>
 								Worked closely with project managers to

@@ -15,20 +15,21 @@ export default function Intro({ buttonClick }) {
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 1 }}
 				>
-					<h2>Hi, I'm Erik</h2>
+					<h2>Hi, I&apos;m Erik</h2>
 					<p>
-						I'm a Full Stack Web Developer and student majoring in
-						Computer Science. <br />I currently work with{" "}
+						I&apos;m a Professional Full Stack Web Developer
+						majoring in Computer Science. <br />I currently work
+						with{" "}
 						<a href="https://civiconnect.ca/" target="_blank">
 							Civiconnect{" "}
 						</a>{" "}
 						as a Web Development Team Lead.
 						<br />
 						<br />
-						I'm passionate about building custom visually appealing
-						and highly functional applications. I also enjoy
-						mentoring junior developers, helping them grow their
-						skills and confidence in web development.
+						I&apos;m passionate about building custom visually
+						appealing and highly functional applications. I also
+						enjoy mentoring junior developers, helping them grow
+						their skills and confidence in web development.
 					</p>
 				</motion.div>
 				<motion.div
