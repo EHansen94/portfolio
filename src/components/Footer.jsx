@@ -3,6 +3,7 @@ import styles from "../styles/components/Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
 	return (
@@ -27,6 +28,13 @@ export default function Footer() {
 						rel="noopener noreferrer"
 					>
 						<FontAwesomeIcon icon={faLinkedin} />
+					</a>
+					<a
+						href="https://github.com/EHansen94"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<FontAwesomeIcon icon={faSquareGithub} />
 					</a>
 				</div>
 			</div>
