@@ -4,6 +4,7 @@ import image from "../../public/images/erik.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Intro({ buttonClick }) {
 	return (
@@ -38,7 +39,12 @@ export default function Intro({ buttonClick }) {
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 1, delay: 0.5 }}
 				>
-					<img src={image.src} alt="Erik" />
+					<Image
+						src={image.src}
+						width={400}
+						height={300}
+						alt="Erik"
+					/>
 				</motion.div>
 			</div>
 			<motion.div

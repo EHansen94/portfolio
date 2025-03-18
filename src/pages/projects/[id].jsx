@@ -158,7 +158,12 @@ export default function Project({ project }) {
 							className={styles["slick-item-wrapper"]}
 						>
 							<div className={styles["slick-image-container"]}>
-								<img src={image} alt="" />
+								<Image
+									src={image}
+									alt=""
+									width={400}
+									height={300}
+								/>
 							</div>
 						</div>
 					))}

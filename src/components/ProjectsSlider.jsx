@@ -10,7 +10,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
-import next from "next";
+import Image from "next/image";
 
 export default function ProjectsSlider({ projectData }) {
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,17 +54,21 @@ export default function ProjectsSlider({ projectData }) {
 							}`}
 						>
 							<div className={styles["image-container"]}>
-								<img
+								<Image
 									className={styles["image"]}
 									src={project.image}
 									alt={project.name}
+									width={800}
+									height={500}
 								/>
 							</div>
 							<div className={styles["mobile-image"]}>
-								<img
+								<Image
 									className={styles["image"]}
 									src={project.preview}
 									alt={project.name}
+									width={500}
+									height={300}
 								/>
 							</div>
 
