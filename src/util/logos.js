@@ -40,6 +40,14 @@ export const tech = [
 		img: "/images/logos/github.svg",
 	},
 	{
+		tech: "Webflow",
+		img: "/images/logos/webflow.svg",
+	},
+	{
+		tech: "Shopify",
+		img: "/images/logos/shopify.svg",
+	},
+	{
 		tech: "Supabase",
 		img: "/images/logos/supabase.svg",
 	},
