@@ -33,6 +33,9 @@ export const projectData = [
 		<li>Interactive masonry gallery</li>
 		<li>Custom CMS (Strapi) for seamless content management</li>
 		</ul>
+		<h3>Testimonial:</h3>
+		<p>A message from the Embassy of Kazakhstan: "The result is truly impressive — aesthetically beautiful and filled with professionalism, 
+		which will undoubtedly allow people from various countries to learn more about Kazakhstani artists and explore their diverse creative works."</p>
 		`,
 		tools: ["React", "Next.js", "CSS Modules", "Figma", "Strapi"],
 	},
