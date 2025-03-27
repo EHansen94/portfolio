@@ -18,18 +18,17 @@ export default function Intro({ buttonClick }) {
 				>
 					<h2>Hi, I&apos;m Erik</h2>
 					<p>
-						I&apos;m a Professional Full Stack Web Developer
-						majoring in Computer Science. <br />I currently work
-						with{" "}
+						I&apos;m a Full Stack Web Developer with a background in
+						Computer Science and a passion for creating custom,
+						visually appealing, and highly functional applications.
+						<br />
+						<br />
+						Currently, I work with{" "}
 						<a href="https://civiconnect.ca/" target="_blank">
-							Civiconnect{" "}
+							Civiconnect
 						</a>{" "}
-						as a Web Development Team Lead.
-						<br />
-						<br />
-						I&apos;m passionate about building custom, visually
-						appealing, and highly functional applications. I also
-						enjoy mentoring junior developers, helping them grow
+						as a Web Development Team Lead, where I lead development
+						efforts and mentor junior developers, helping them grow
 						their skills and confidence in web development.
 					</p>
 				</motion.div>
