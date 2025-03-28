@@ -68,6 +68,13 @@ export default function experience() {
 								repository.
 							</li>
 							<li>
+								Led the design and development of web
+								wireframes, concept art, and interactive
+								prototypes in Figma to establish clear project
+								direction and improve collaboration between
+								design and development teams.
+							</li>
+							<li>
 								Led presentations of prototypes and finalized
 								websites to both management and clients,
 								ensuring alignment with project objectives and
