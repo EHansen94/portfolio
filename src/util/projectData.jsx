@@ -291,7 +291,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 	{
 		id: 9,
 		name: "Welland County Law Association",
-		summary: `I worked on the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
+		summary: `I led the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
 		<br/><br/>
 		The project goals were to enhance an existing Webflow/Django site by rebuilding it with React and Strapi, while giving the client far more flexibility and customization options.
 		`,
@@ -304,7 +304,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 			"/images/PortfolioPhotos/WCLA/resources.png",
 			"/images/PortfolioPhotos/WCLA/contact.png",
 		],
-		desc: `I worked on the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
+		desc: `I led the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
 		<br/><br/>
 		The project goals were to enhance an existing Webflow/Django site by rebuilding it with React and Strapi, while giving the client far more flexibility and customization options.
 		<h3> Key Features:</h3>
