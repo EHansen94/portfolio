@@ -288,33 +288,33 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "Next.js", "TailwindCSS", "Figma", "Strapi"],
 	},
-	// {
-	// 	id: 9,
-	// 	name: "Welland County Law Association",
-	// 	summary: `I worked on the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
-	// 	<br/><br/>
-	// 	The project goals were to enhance the existing Webflow/Django site by rebuilding it with React and Strapi, while giving the client far more flexibility and customization options.
-	// 	`,
-	// 	preview: "/images/wcla-preview.png",
-	// 	// link: "https://wcla.ca/", add once live***
-	// 	galleryImages: [
-	// 		"/images/PortfolioPhotos/WCLA/hero.png",
-	// 		"/images/PortfolioPhotos/WCLA/library.png",
-	// 		"/images/PortfolioPhotos/WCLA/members.png",
-	// 		"/images/PortfolioPhotos/WCLA/resources.png",
-	// 		"/images/PortfolioPhotos/WCLA/contact.png",
-	// 	],
-	// 	desc: `I worked on the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
-	// 	<br/><br/>
-	// 	TO DO: Add more info
-	// 	<h3> Key Features:</h3>
-	// 	<ul>
-	// 	<li>Extensive Members directory with advanced search and filtering options</li>
-	// 	<li>Resources page with downloadable documents</li>
-	// 	<li>Membership request & Ad request forms</li>
-	// 	<li>Custom CMS (Strapi) for content management</li>
-	// 	</ul>
-	// 	`,
-	// 	tools: ["React", "TailwindCSS", "Figma", "Strapi", "Nodemailer"],
-	// },
+	{
+		id: 9,
+		name: "Welland County Law Association",
+		summary: `I worked on the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
+		<br/><br/>
+		The project goals were to enhance an existing Webflow/Django site by rebuilding it with React and Strapi, while giving the client far more flexibility and customization options.
+		`,
+		preview: "/images/wcla-preview.png",
+		link: "https://wcla.ca/",
+		galleryImages: [
+			"/images/PortfolioPhotos/WCLA/hero.png",
+			"/images/PortfolioPhotos/WCLA/library.png",
+			"/images/PortfolioPhotos/WCLA/members.png",
+			"/images/PortfolioPhotos/WCLA/resources.png",
+			"/images/PortfolioPhotos/WCLA/contact.png",
+		],
+		desc: `I worked on the development team for the Welland County Law Association website rebuild. The project included a partial website redesign and full development.
+		<br/><br/>
+		The project goals were to enhance an existing Webflow/Django site by rebuilding it with React and Strapi, while giving the client far more flexibility and customization options.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Extensive Members directory with advanced search and filtering options</li>
+		<li>Resources page with downloadable documents</li>
+		<li>Membership request & Ad request forms</li>
+		<li>Custom CMS (Strapi) for content management</li>
+		</ul>
+		`,
+		tools: ["React", "TailwindCSS", "Figma", "Strapi", "Nodemailer"],
+	},
 ];
