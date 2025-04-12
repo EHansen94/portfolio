@@ -43,9 +43,16 @@
 	font-weight: 400px;
 }
 
+@media only screen and (max-width: 856px) {
+	.experience-container {
+		margin: 3rem auto 2.5rem auto;
+		padding-top: 2.5rem;
+	}
+}
+
 @media only screen and (max-width: 512px) {
 	.experience-container {
-		margin: 6.5rem auto 2rem auto;
+		padding-top: 40px;
 	}
 
 	.job-date {
