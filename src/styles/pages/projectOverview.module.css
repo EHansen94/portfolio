@@ -183,6 +183,13 @@
 	}
 }
 
+@media screen and (max-width: 856px) {
+	.page-container {
+		padding: 2.5rem;
+		margin: 3rem auto 2.5rem auto;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.carousel {
 		display: none;
