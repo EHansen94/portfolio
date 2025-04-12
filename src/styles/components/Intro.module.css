@@ -89,7 +89,7 @@
 	.container {
 		flex-direction: column;
 		gap: 2rem;
-		height: 100vh;
+		max-height: 90vh;
 		margin-top: 0.5rem;
 	}
 
@@ -99,8 +99,12 @@
 	}
 
 	.text p {
-		font-size: 1.2rem;
-		line-height: 1.4;
+		font-size: 1.1rem;
+		line-height: 1.35;
+	}
+
+	.text a {
+		font-size: 1.1rem;
 	}
 
 	.button-container {
