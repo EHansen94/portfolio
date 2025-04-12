@@ -135,6 +135,9 @@ export default function ProjectsSlider({ projectData }) {
 					></span>
 				))}
 			</div>
+			{/* <div className={styles["mobile-link"]}>
+				<a href="/projects">View All Projects</a>
+			</div> */}
 		</div>
 	);
 }
