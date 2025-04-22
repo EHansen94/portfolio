@@ -317,4 +317,41 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "TailwindCSS", "Figma", "Strapi", "Nodemailer"],
 	},
+	{
+		id: 10,
+		name: "Sketchify",
+		summary: `As part of a school project, I worked on Sketchify, an application allowing users to use AI to enhance and create artwork from sketches. The Application also serves as a community
+		platform with user authentication - allowing you to browse other users work, share your own, save to favourites, etc.
+		<br/><br/>
+		I played a large role in the original concept design in Figma, as well as various parts of the Next.js web application and Firebase backend.
+		`,
+		preview: "/images/PortfolioPhotos/Sketchify/hero.png",
+		link: "https://sketchify-live.vercel.app/",
+		galleryImages: [
+			"/images/PortfolioPhotos/Sketchify/hero.png",
+			"/images/PortfolioPhotos/Sketchify/explore.png",
+			"/images/PortfolioPhotos/Sketchify/sketch.png",
+			"/images/PortfolioPhotos/Sketchify/profile.png",
+			"/images/PortfolioPhotos/Sketchify/artwork.png",
+		],
+		desc: `As part of a school project, I worked on Sketchify, an application allowing users to use AI to enhance and create artwork from sketches. The Application also serves as a community
+		platform with user authentication - allowing you to browse other users work, share your own, save to favourites, etc.
+		<br/><br/>
+		I played a large role in the original concept design in Figma, as well as various parts of the Next.js web application and Firebase backend.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Sketch tools and AI enhancement functionalities</li>
+		<li>User Authentication, sharing, and saving features</li>
+		<li>Contact and newsletter submissions</li>
+		</ul>
+		`,
+		tools: [
+			"React",
+			"TailwindCSS",
+			"Firebase",
+			"Figma",
+			"Vercel",
+			"StabilityAI",
+		],
+	},
 ];
