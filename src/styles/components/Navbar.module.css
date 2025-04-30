@@ -14,13 +14,13 @@
 }
 
 .navbar-container.scrolled {
-	background-color: var(--primary-background);
+	background-color: var(--primary-background-2);
 }
 
 .nav-links {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 8px;
+	padding-bottom: 12px;
 	gap: 3rem;
 }
 
