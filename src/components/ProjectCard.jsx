@@ -16,12 +16,13 @@ export default function ProjectCard({ project }) {
 		<div className={styles["project-card"]} onClick={handleClick}>
 			{/* <div className={styles["line"]}></div> */}
 			<div className={styles["content"]}>
-				<Image
+				{/* <Image
 					src={project.preview}
 					alt={project.name}
 					width={800}
 					height={500}
-				/>
+				/> */}
+				<img src={project.preview} alt={project.name} />
 				<div className={styles["text"]}>
 					<h3>{project.name}</h3>
 					<p>

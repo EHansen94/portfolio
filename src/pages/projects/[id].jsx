@@ -110,12 +110,13 @@ export default function Project({ project }) {
 							}`}
 						>
 							<div className={styles["image-container"]}>
-								<Image
+								{/* <Image
 									src={image}
 									alt=""
 									width={800}
 									height={600}
-								/>
+								/> */}
+								<img src={image} alt="" />
 							</div>
 						</div>
 					))}
@@ -158,12 +159,13 @@ export default function Project({ project }) {
 							className={styles["slick-item-wrapper"]}
 						>
 							<div className={styles["slick-image-container"]}>
-								<Image
+								{/* <Image
 									src={image}
 									alt=""
 									width={400}
 									height={300}
-								/>
+								/> */}
+								<img src={image} alt="" />
 							</div>
 						</div>
 					))}
