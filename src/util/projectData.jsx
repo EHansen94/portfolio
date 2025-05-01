@@ -253,40 +253,40 @@ concept art presentations with multiple color palettes and immersive parallax ef
 	},
 	{
 		id: 8,
-		name: "Foods4U",
-		summary: `I worked on the development team for Foods4U's website. The project included a full website design and development.
+		name: "Curly Lifestyles",
+		summary: `I worked on the development team, as one of two team leads for the Curly Lifestyles website. The project included a full website design and development.
 		<br/><br/>
-		Key features included user authentication systems for user profiles and restaurant owners, 
-		saved preferences for users,
-		dynamic restaurant pages and menus, 
-		personal restaurant admin dashboards, 
-		and a custom CMS (Strapi) for admin content management.
+		Key features included user authentication systems for user profiles, 
+		social media style feed, following, commenting, posting, etc.,
+		robust search and filtering system for posts, users, tags, etc., 
+		in application admin dashboard for site management, moderation, and analytics.
 		`,
-		preview: "/images/f4u-preview.png",
-		link: "https://foods4u.ca/",
+		preview: "/images/curly-preview.png",
+		link: "https://curlylifestyles.com/",
 		galleryImages: [
-			"/images/PortfolioPhotos/F4U/hero.png",
-			"/images/PortfolioPhotos/F4U/modal.png",
-			"/images/PortfolioPhotos/F4U/menu.png",
-			"/images/PortfolioPhotos/F4U/auth.png",
-			"/images/PortfolioPhotos/F4U/rest.png",
+			"/images/PortfolioPhotos/Curly/hero.png",
+			"/images/PortfolioPhotos/Curly/explore.png",
+			"/images/PortfolioPhotos/Curly/profile.png",
+			"/images/PortfolioPhotos/Curly/post.png",
+			"/images/PortfolioPhotos/Curly/topics.png",
+			"/images/PortfolioPhotos/Curly/categories.png",
+			"/images/PortfolioPhotos/Curly/dashboard.png",
 		],
-		desc: `I worked on the development team for Foods4U's website. The project included a full website design and development.
+		desc: `I worked on the development team, as one of two team leads for the Curly Lifestyles website. The project included a full website design and development.
 		<br/><br/>
-		Foods4U focuses on helping users find eateries that cater to specific dietary needs, such as vegetarian, vegan, gluten-free, or allergen-friendly options. The platform ensures that users can make informed dining choices that align with their dietary preferences and restrictions.
+		Curly Lifestyles is a new online community made for curly, coily, and wavy hair types to learn, share, save inspo, and connect with others who are also figuring out their natural hair.
 		<br/><br/>
-		*The site is live, but the client is in the early stages of making use of the platform.
 		<h3> Key Features:</h3>
 		<ul>
-		<li>User authentication systems for user profiles and restaurant owners</li>
-		<li>User profiles with saved preferences</li>
-		<li>Interactive searchable map for menu items and restaruants</>
-		<li>Dynamic restaurant pages and menus</li>
+		<li>User authentication systems for user profiles</li>
+		<li>Social media style feed, following, commenting, posting, etc.</li>
+		<li>Robust search and filtering system for posts, users, tags, etc.</>
+		<li>In application admin dashboard for site management, moderation, and analytics</li>
 		<li>Personal restaurant admin dashboards with customization for menu items and other info</li>
-		<li>Custom CMS (Strapi) for admin content management</li>
+		<li>Custom Supabase backend</li>
 		</ul>
 		`,
-		tools: ["React", "Next.js", "TailwindCSS", "Figma", "Strapi"],
+		tools: ["React", "Next.js", "Supabase", "TailwindCSS", "Figma"],
 	},
 	{
 		id: 9,
