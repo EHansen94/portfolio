@@ -2,7 +2,7 @@ export const projectData = [
 	{
 		id: 1,
 		name: "Artists of Modern Kazakhstan",
-		image: "/images/aoc.png",
+		image: "/images/aok-preview.png",
 		preview: "/images/aok-preview.png",
 		link: "https://www.artists-of-kazakhstan.digitalcollections-civiconnect.com/",
 		galleryImages: [
@@ -40,9 +40,46 @@ export const projectData = [
 		tools: ["React", "Next.js", "CSS Modules", "Figma", "Strapi"],
 	},
 	{
+		id: 8,
+		name: "Curly Lifestyles",
+		summary: `I worked on the development team, as one of two team leads for the Curly Lifestyles website. The project included a full website design and development.
+		<br/><br/>
+		Key features a social media style feed, following, commenting, posting, etc.,
+		robust search and filtering system for posts, users, tags, etc., 
+		in application admin dashboard for site management, moderation, and analytics.
+		`,
+		preview: "/images/curly-preview.png",
+		image: "/images/curly2.png",
+		link: "https://curlylifestyles.com/",
+		galleryImages: [
+			"/images/PortfolioPhotos/Curly/hero.png",
+			"/images/PortfolioPhotos/Curly/explore.png",
+			"/images/PortfolioPhotos/Curly/profile.png",
+			"/images/PortfolioPhotos/Curly/post.png",
+			"/images/PortfolioPhotos/Curly/topics.png",
+			"/images/PortfolioPhotos/Curly/categories.png",
+			"/images/PortfolioPhotos/Curly/dashboard.png",
+		],
+		desc: `I worked on the development team, as one of two team leads for the Curly Lifestyles website. The project included a full website design and development.
+		<br/><br/>
+		Curly Lifestyles is a new online community made for curly, coily, and wavy hair types to learn, share, save inspo, and connect with others who are also figuring out their natural hair.
+		<br/><br/>
+		<h3> Key Features:</h3>
+		<ul>
+		<li>User authentication systems for user profiles</li>
+		<li>Social media style feed, following, commenting, posting, etc.</li>
+		<li>Robust search and filtering system for posts, users, tags, etc.</>
+		<li>In application admin dashboard for site management, moderation, and analytics</li>
+		<li>Personal restaurant admin dashboards with customization for menu items and other info</li>
+		<li>Custom Supabase backend</li>
+		</ul>
+		`,
+		tools: ["React", "Next.js", "Supabase", "TailwindCSS", "Figma"],
+	},
+	{
 		id: 2,
 		name: "Twenty Valley Golf Club",
-		image: "/images/tv.png",
+		image: "/images/tv-preview.png",
 		galleryImages: [
 			"/images/PortfolioPhotos/TwentyValley/mainHero.png",
 			"/images/PortfolioPhotos/TwentyValley/course.png",
@@ -84,11 +121,12 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "Next.js", "TailwindCSS", "Figma", "Strapi"],
 	},
+
 	{
 		id: 3,
 		name: "Civiconnect",
 		preview: "/images/civi-preview.png",
-		image: "/images/civi.png",
+		image: "/images/PortfolioPhotos/Civiconnect/hero.png",
 		galleryImages: [
 			"/images/PortfolioPhotos/Civiconnect/hero.png",
 			"/images/PortfolioPhotos/Civiconnect/blogPage.png",
@@ -124,7 +162,6 @@ concept art presentations with multiple color palettes and immersive parallax ef
 			"Strapi",
 		],
 	},
-
 	{
 		id: 4,
 		name: "United Mennonite Home",
@@ -251,43 +288,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "Styled JSX", "Figma", "Google Maps API", "MapMe"],
 	},
-	{
-		id: 8,
-		name: "Curly Lifestyles",
-		summary: `I worked on the development team, as one of two team leads for the Curly Lifestyles website. The project included a full website design and development.
-		<br/><br/>
-		Key features included user authentication systems for user profiles, 
-		social media style feed, following, commenting, posting, etc.,
-		robust search and filtering system for posts, users, tags, etc., 
-		in application admin dashboard for site management, moderation, and analytics.
-		`,
-		preview: "/images/curly-preview.png",
-		link: "https://curlylifestyles.com/",
-		galleryImages: [
-			"/images/PortfolioPhotos/Curly/hero.png",
-			"/images/PortfolioPhotos/Curly/explore.png",
-			"/images/PortfolioPhotos/Curly/profile.png",
-			"/images/PortfolioPhotos/Curly/post.png",
-			"/images/PortfolioPhotos/Curly/topics.png",
-			"/images/PortfolioPhotos/Curly/categories.png",
-			"/images/PortfolioPhotos/Curly/dashboard.png",
-		],
-		desc: `I worked on the development team, as one of two team leads for the Curly Lifestyles website. The project included a full website design and development.
-		<br/><br/>
-		Curly Lifestyles is a new online community made for curly, coily, and wavy hair types to learn, share, save inspo, and connect with others who are also figuring out their natural hair.
-		<br/><br/>
-		<h3> Key Features:</h3>
-		<ul>
-		<li>User authentication systems for user profiles</li>
-		<li>Social media style feed, following, commenting, posting, etc.</li>
-		<li>Robust search and filtering system for posts, users, tags, etc.</>
-		<li>In application admin dashboard for site management, moderation, and analytics</li>
-		<li>Personal restaurant admin dashboards with customization for menu items and other info</li>
-		<li>Custom Supabase backend</li>
-		</ul>
-		`,
-		tools: ["React", "Next.js", "Supabase", "TailwindCSS", "Figma"],
-	},
+
 	{
 		id: 9,
 		name: "Welland County Law Association",
