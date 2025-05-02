@@ -68,7 +68,7 @@ export const projectData = [
 		<ul>
 		<li>User authentication systems for user profiles</li>
 		<li>Social media style feed, following, commenting, posting, etc.</li>
-		<li>Robust search and filtering system for posts, users, tags, etc.</>
+		<li>Robust search and filtering system for posts, users, tags, etc.</li>
 		<li>In application admin dashboard for site management, moderation, and analytics</li>
 		<li>Personal restaurant admin dashboards with customization for menu items and other info</li>
 		<li>Custom Supabase backend</li>
