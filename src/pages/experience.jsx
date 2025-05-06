@@ -25,7 +25,7 @@ export default function experience() {
 					transition={{ duration: 1.25, delay: 0.625 }}
 				>
 					<div className={styles["job-title"]}>
-						<h4>Web Development Team Lead</h4>
+						<h4>Web Development Specialist (formerly Team Lead)</h4>
 						<div className={styles["job-date"]}>
 							<h5>Civiconnect, Beamsville, ON.</h5>
 							<h5>Apr. 2023 – Present</h5>
@@ -33,52 +33,56 @@ export default function experience() {
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							As a Web Development Team Lead, I&apos;ve led 6
-							different teams to deliver high-quality projects,
-							while mentoring junior developers and ensuring
-							smooth collaboration across the team members.
-							Focused on building efficient and scalable
-							codebases, streamlining workflows, and aligning
-							development with client needs.
+							As Web Development Team Lead and now Web Development
+							Specialist at Civiconnect, I&apos;ve combined
+							leadership and hands-on technical expertise to
+							deliver high-quality web projects. I led six
+							development teams, mentored junior developers, and
+							facilitated smooth collaboration across teams. In my
+							current role, I focus on independently building
+							efficient, scalable codebases, streamlining
+							workflows, and aligning development with evolving
+							client needs.
 						</p>
 						<ul>
 							<li>
-								Spearheaded and mentored junior developers
-								across multiple projects for diverse clientele.
+								Mentored junior developers and led six
+								development teams to deliver high-quality
+								projects for diverse clientele.
 							</li>
 							<li>
-								Conducted daily stand-up meetings to track
-								project progress and address team concerns
-								promptly.
+								Conducted daily stand-up meetings and
+								collaborated with project managers during sprint
+								planning to align on priorities and address
+								technical challenges.
 							</li>
 							<li>
-								Collaborated with project and development
-								managers at the onset of 2-week sprints to
-								strategize development priorities and address
-								potential challenges.
+								Transitioned into a more independent role
+								focused on architecting scalable, maintainable
+								codebases using React, Next.js, and modern
+								development practices.
 							</li>
 							<li>
-								Engineered efficient and resilient codebase
-								utilizing React and Next.js.
+								Reviewed pull requests, resolved merge
+								conflicts, and maintained clean project
+								codebases on GitHub.
 							</li>
 							<li>
-								Supervised project codebase on GitHub,
-								meticulously reviewing pull requests, resolving
-								conflicts, and merging changes into the main
-								repository.
+								Designed and developed wireframes, concept art,
+								and interactive prototypes in Figma to guide
+								UI/UX direction.
 							</li>
 							<li>
-								Led the design and development of web
-								wireframes, concept art, and interactive
-								prototypes in Figma to establish clear project
-								direction and improve collaboration between
-								design and development teams.
+								Delivered presentations of prototypes and
+								completed websites to stakeholders, ensuring
+								alignment with project goals and client
+								expectations.
 							</li>
 							<li>
-								Led presentations of prototypes and finalized
-								websites to both management and clients,
-								ensuring alignment with project objectives and
-								client expectations.
+								Continuously improved internal workflows,
+								contributed to architectural decisions, and
+								implemented best practices to optimize team and
+								project efficiency.
 							</li>
 						</ul>
 					</div>

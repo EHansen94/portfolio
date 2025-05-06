@@ -27,9 +27,14 @@ export default function Intro({ buttonClick }) {
 						<a href="https://civiconnect.ca/" target="_blank">
 							Civiconnect
 						</a>{" "}
-						as a Web Development Team Lead, where I lead development
-						efforts and mentor junior developers, helping them grow
-						their skills and confidence in web development.
+						as a Web Development Specialist, where I focus on
+						building scalable, efficient solutions and driving
+						high-impact projects from concept to deployment.
+						{/* <br />
+						<br />
+						Previously, I led development efforts as a Team Lead,
+						mentoring junior developers and fostering collaborative,
+						growth-oriented teams. */}
 					</p>
 				</motion.div>
 				<motion.div
