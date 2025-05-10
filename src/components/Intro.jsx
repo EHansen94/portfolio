@@ -18,7 +18,7 @@ export default function Intro({ buttonClick }) {
 				>
 					<h2>Hi, I&apos;m Erik</h2>
 					<p>
-						I&apos;m a Full Stack Web Developer with a background in
+						I&apos;m an experienced developer with a background in
 						Computer Science and a passion for creating custom,
 						visually appealing, and highly functional applications.
 						<br />
