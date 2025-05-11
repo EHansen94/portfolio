@@ -142,7 +142,7 @@ export default function Project({ project }) {
 
 			{/* Carousel- mobile */}
 			<div className={styles["mobile-carousel"]}>
-				<Slider
+				{/* <Slider
 					infinite={true}
 					speed={500}
 					slidesToShow={1}
@@ -152,24 +152,21 @@ export default function Project({ project }) {
 					arrows={false}
 					dots={false}
 					className={styles["carousel-mobile"]}
-				>
-					{project.galleryImages.map((image, index) => (
-						<div
-							key={index}
-							className={styles["slick-item-wrapper"]}
-						>
-							<div className={styles["slick-image-container"]}>
-								{/* <Image
+				> */}
+				{project.galleryImages.map((image, index) => (
+					<div key={index} className={styles["slick-item-wrapper"]}>
+						<div className={styles["slick-image-container"]}>
+							{/* <Image
 									src={image}
 									alt=""
 									width={400}
 									height={300}
 								/> */}
-								<img src={image} alt="" />
-							</div>
+							<img src={image} alt="" />
 						</div>
-					))}
-				</Slider>
+					</div>
+				))}
+				{/* </Slider> */}
 			</div>
 
 			<div className={styles["tools"]}>
