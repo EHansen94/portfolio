@@ -33,10 +33,10 @@ export default function experience() {
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							As Web Development Team Lead and now Web Development
-							Specialist at Civiconnect, I&apos;ve combined
-							leadership and hands-on technical expertise to
-							deliver high-quality web projects. I led six
+							As a Web Development Team Lead and now a Web
+							Development Specialist at Civiconnect, I&apos;ve
+							combined leadership and hands-on technical expertise
+							to deliver high-quality web projects. I led six
 							development teams, mentored junior developers, and
 							facilitated smooth collaboration across teams. In my
 							current role, I focus on independently building
