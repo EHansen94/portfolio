@@ -44,8 +44,8 @@ export const projectData = [
 		name: "Curly Lifestyles",
 		summary: `I worked on the development team, as one of two team leads for the Curly Lifestyles website. The project included a full website design and development.
 		<br/><br/>
-		Key features a social media style feed, following, commenting, posting, etc.,
-		robust search and filtering system for posts, users, tags, etc., 
+		Key features include a social media style feed, following, commenting, posting, etc.,
+		robust search and filtering system for posts, users and tags, 
 		in application admin dashboard for site management, moderation, and analytics.
 		`,
 		preview: "/images/curly-preview.png",
