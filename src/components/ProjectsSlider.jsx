@@ -54,32 +54,32 @@ export default function ProjectsSlider({ projectData }) {
 							}`}
 						>
 							<div className={styles["image-container"]}>
-								{/* <Image
+								<Image
 									className={styles["image"]}
 									src={project.image}
 									alt={project.name}
 									width={800}
 									height={500}
-								/> */}
-								<img
+								/>
+								{/* <img
 									className={styles["image"]}
 									src={project.image}
 									alt={project.name}
-								/>
+								/> */}
 							</div>
 							<div className={styles["mobile-image"]}>
-								{/* <Image
+								<Image
 									className={styles["image"]}
 									src={project.preview}
 									alt={project.name}
 									width={500}
 									height={300}
-								/> */}
-								<img
+								/>
+								{/* <img
 									className={styles["mobile-image"]}
 									src={project.preview}
 									alt={project.name}
-								/>
+								/> */}
 							</div>
 
 							<div className={styles["content"]}>
