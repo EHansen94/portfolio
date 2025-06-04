@@ -36,6 +36,10 @@ export const tech = [
 		img: "/images/logos/strapi.svg",
 	},
 	{
+		tech: "Payload CMS",
+		img: "/images/logos/payload.png",
+	},
+	{
 		tech: "GitHub",
 		img: "/images/logos/github.svg",
 	},
