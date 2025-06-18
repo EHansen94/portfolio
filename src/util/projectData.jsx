@@ -355,4 +355,29 @@ concept art presentations with multiple color palettes and immersive parallax ef
 			"StabilityAI",
 		],
 	},
+	{
+		id: 11,
+		name: "SYNOD Intellicare",
+		summary: `I worked in a 2 person team for a redesign and development of a new SYNOD Intellicare site. SYNOD Intellicare is new healthcare service providing AI solutions for various healthcare needs.
+		<br/><br/>
+		The project included a full website design and development, with a focus on content management and user experience.
+		`,
+		preview: "/images/PortfolioPhotos/Synod/synod.png",
+		link: "https://www.synodintellicare.com/",
+		galleryImages: [
+			"/images/PortfolioPhotos/Synod/synod.png",
+			"/images/PortfolioPhotos/Synod/approach.png",
+			"/images/PortfolioPhotos/Synod/solutions.png",
+		],
+		desc: `I worked in a small team for a full redesign and development of a new SYNOD Intellicare site. SYNOD Intellicare is new healthcare service providing AI solutions for various healthcare needs.
+		<br/><br/>
+		The project included a full website design in Figma and development with React.js and Tailwind CSS.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Scalable sections via Strapi CMS on Approach and Solutions pages</li>
+		<li>Improved responsiveness vs old site</li>
+		</ul>
+		`,
+		tools: ["React", "TailwindCSS", "Strapi", "Figma"],
+	},
 ];
