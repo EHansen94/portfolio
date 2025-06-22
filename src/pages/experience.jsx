@@ -25,24 +25,86 @@ export default function experience() {
 					transition={{ duration: 1.25, delay: 0.625 }}
 				>
 					<div className={styles["job-title"]}>
-						<h4>Web Development Specialist (formerly Team Lead)</h4>
+						<h4>Front End Developer</h4>
 						<div className={styles["job-date"]}>
-							<h5>Civiconnect, Beamsville, ON.</h5>
-							<h5>Apr. 2023 – Present</h5>
+							<h5>University of Niagara Falls, ON.</h5>
+							<h5>July 2025 – Present</h5>
 						</div>
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							As a Web Development Team Lead and now a Web
-							Development Specialist at Civiconnect, I&apos;ve
-							combined leadership and hands-on technical expertise
-							to deliver high-quality web projects. I led six
-							development teams, mentored junior developers, and
-							facilitated smooth collaboration across teams. In my
-							current role, I focus on independently building
-							efficient, scalable codebases, streamlining
-							workflows, and aligning development with evolving
-							client needs.
+							As a Front End Developer, I focus on building and
+							maintaining custom components for the Ellucian
+							Experience platform. My work emphasizes modern web
+							development practices using JavaScript, HTML, CSS,
+							Node.js, and REST APIs, delivering responsive and
+							scalable user interfaces aligned with institutional
+							needs.
+						</p>
+						<ul>
+							<li>
+								Collaborate with cross-functional teams to
+								understand business requirements and translate
+								them into technical solutions within the
+								Ellucian Experience, Colleague UI, TEAMia and
+								related platforms.
+							</li>
+							<li>
+								Design and develop custom cards using
+								technologies such as JavaScript, and Node.js to
+								enhance the user experience and meet specific
+								University needs.
+							</li>
+							<li>
+								Integrate REST APIs and other external systems
+								to enable data exchange and functionality within
+								the Ellucian environments and other systems at
+								the University.
+							</li>
+							<li>
+								Create communication templates using HTML to
+								deliver personalized and engaging messages to
+								students, faculty, and staff.
+							</li>
+							<li>
+								Lead the design, development, and implementation
+								of complex workflow processes within the systems
+								at the University, utilizing Ellucian
+								Workflow/Salesforce Flow, to streamline
+								university operations and enhance
+							</li>
+							<li>
+								Troubleshoot issues, optimize performance, and
+								ensure scalability of custom solutions within
+								the ecosystem of systems.
+							</li>
+						</ul>
+					</div>
+				</motion.div>
+				<motion.div
+					className={styles["experience"]}
+					initial={{ opacity: 0, x: 40 }}
+					animate={{ opacity: 1, x: 0 }}
+					transition={{ duration: 1.25, delay: 1.25 }}
+				>
+					<div className={styles["job-title"]}>
+						<h4>Web Development Team Lead</h4>
+						<div className={styles["job-date"]}>
+							<h5>Civiconnect, Beamsville, ON.</h5>
+							<h5>Apr. 2023 – July 2025</h5>
+						</div>
+					</div>
+					<div className={styles["job-description"]}>
+						<p>
+							As a Web Development Team Lead at Civiconnect,
+							I&apos;ve combined leadership and hands-on technical
+							expertise to deliver high-quality web projects. I
+							led six development teams, mentored junior
+							developers, and facilitated smooth collaboration
+							across teams. My role evolved to focus on
+							architecting efficient, scalable codebases,
+							streamlining workflows, and aligning development
+							with evolving client needs.
 						</p>
 						<ul>
 							<li>
@@ -91,7 +153,7 @@ export default function experience() {
 					className={styles["experience"]}
 					initial={{ opacity: 0, x: 40 }}
 					animate={{ opacity: 1, x: 0 }}
-					transition={{ duration: 1.25, delay: 1.25 }}
+					transition={{ duration: 1.25, delay: 1.85 }}
 				>
 					<div className={styles["job-title"]}>
 						<h4>Web Developer</h4>

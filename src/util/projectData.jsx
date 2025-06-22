@@ -358,7 +358,7 @@ concept art presentations with multiple color palettes and immersive parallax ef
 	{
 		id: 11,
 		name: "SYNOD Intellicare",
-		summary: `I worked in a 2 person team for a redesign and development of a new SYNOD Intellicare site. SYNOD Intellicare is new healthcare service providing AI solutions for various healthcare needs.
+		summary: `I worked on the redesign and development of a new SYNOD Intellicare site. SYNOD Intellicare is new healthcare service providing AI solutions for various healthcare needs.
 		<br/><br/>
 		The project included a full website design and development, with a focus on content management and user experience.
 		`,

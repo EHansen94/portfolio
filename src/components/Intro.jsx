@@ -27,7 +27,7 @@ export default function Intro({ buttonClick }) {
 						<a href="https://civiconnect.ca/" target="_blank">
 							Civiconnect
 						</a>{" "}
-						as a Web Development Specialist, where I focus on
+						as a Web Development Team Lead, where I focus on
 						building scalable, efficient solutions and driving
 						high-impact projects from concept to deployment.
 						{/* <br />

@@ -24,7 +24,7 @@ export default function home() {
 		<div className={styles["page-container"]}>
 			<NextSeo
 				title="Portfolio | Erik Hansen"
-				description="A portfolio website for showcasing my projects and skills."
+				description="My personal website for showcasing my projects and experience."
 			/>
 			<Intro buttonClick={goToProjects} />
 			<div id="projects">
