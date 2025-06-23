@@ -30,11 +30,6 @@ export default function Intro({ buttonClick }) {
 						as a Web Development Team Lead, where I focus on
 						building scalable, efficient solutions and driving
 						high-impact projects from concept to deployment.
-						{/* <br />
-						<br />
-						Previously, I led development efforts as a Team Lead,
-						mentoring junior developers and fostering collaborative,
-						growth-oriented teams. */}
 					</p>
 				</motion.div>
 				<motion.div
