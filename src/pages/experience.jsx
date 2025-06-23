@@ -85,7 +85,7 @@ export default function experience() {
 					className={styles["experience"]}
 					initial={{ opacity: 0, x: 40 }}
 					animate={{ opacity: 1, x: 0 }}
-					transition={{ duration: 1.25, delay: 1.25 }}
+					transition={{ duration: 1.25, delay: 0.65 }}
 				>
 					<div className={styles["job-title"]}>
 						<h4>Web Development Team Lead</h4>
@@ -153,7 +153,7 @@ export default function experience() {
 					className={styles["experience"]}
 					initial={{ opacity: 0, x: 40 }}
 					animate={{ opacity: 1, x: 0 }}
-					transition={{ duration: 1.25, delay: 1.85 }}
+					transition={{ duration: 1.25, delay: 1.3 }}
 				>
 					<div className={styles["job-title"]}>
 						<h4>Web Developer</h4>

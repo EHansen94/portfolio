@@ -36,7 +36,7 @@ export default function Intro({ buttonClick }) {
 					className={styles["image"]}
 					initial={{ opacity: 0, x: 20 }}
 					animate={{ opacity: 1, x: 0 }}
-					transition={{ duration: 1, delay: 0.5 }}
+					transition={{ duration: 1, delay: 0.4 }}
 				>
 					<Image
 						src={image.src}
@@ -50,7 +50,7 @@ export default function Intro({ buttonClick }) {
 				className={styles["button-container"]}
 				initial={{ opacity: 0, y: 20 }}
 				animate={{ opacity: 1, y: 0 }}
-				transition={{ duration: 1, delay: 1 }}
+				transition={{ duration: 1, delay: 0.8 }}
 			>
 				<motion.button
 					onClick={buttonClick}
