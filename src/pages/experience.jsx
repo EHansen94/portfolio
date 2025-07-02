@@ -18,7 +18,7 @@ export default function experience() {
 				Professional Experience
 			</motion.h2>
 			<div className={styles["experiences"]}>
-				{/* <motion.div
+				<motion.div
 					className={styles["experience"]}
 					initial={{ opacity: 0, x: 40 }}
 					animate={{ opacity: 1, x: 0 }}
@@ -80,12 +80,12 @@ export default function experience() {
 							</li>
 						</ul>
 					</div>
-				</motion.div> */}
+				</motion.div>
 				<motion.div
 					className={styles["experience"]}
 					initial={{ opacity: 0, x: 40 }}
 					animate={{ opacity: 1, x: 0 }}
-					transition={{ duration: 1.25, delay: 0.65 }}
+					transition={{ duration: 1.25, delay: 1.05 }}
 				>
 					<div className={styles["job-title"]}>
 						<h4>Web Development Team Lead</h4>
@@ -153,7 +153,7 @@ export default function experience() {
 					className={styles["experience"]}
 					initial={{ opacity: 0, x: 40 }}
 					animate={{ opacity: 1, x: 0 }}
-					transition={{ duration: 1.25, delay: 1.3 }}
+					transition={{ duration: 1.25, delay: 1.55 }}
 				>
 					<div className={styles["job-title"]}>
 						<h4>Web Developer</h4>

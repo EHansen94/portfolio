@@ -24,12 +24,13 @@ export default function Intro({ buttonClick }) {
 						<br />
 						<br />
 						Currently, I work with{" "}
-						<a href="https://civiconnect.ca/" target="_blank">
-							Civiconnect
+						<a href="https://www.unfc.ca/" target="_blank">
+							UNFC
 						</a>{" "}
-						as a Web Development Team Lead, where I focus on
-						building scalable, efficient solutions and driving
-						high-impact projects from concept to deployment.
+						as a Front End Developer, where I focus on building and
+						maintaining custom components for the Ellucian
+						Experience platform, as well as ensuring seamless
+						integration with various university systems.
 					</p>
 				</motion.div>
 				<motion.div
