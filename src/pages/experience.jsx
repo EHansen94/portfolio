@@ -71,7 +71,8 @@ export default function experience() {
 								of complex workflow processes within the systems
 								at the University, utilizing Ellucian
 								Workflow/Salesforce Flow, to streamline
-								university operations and enhance
+								university operations and enhance user
+								experience.
 							</li>
 							<li>
 								Troubleshoot issues, optimize performance, and
