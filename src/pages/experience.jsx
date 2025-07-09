@@ -27,7 +27,7 @@ export default function experience() {
 					<div className={styles["job-title"]}>
 						<h4>Front End Developer</h4>
 						<div className={styles["job-date"]}>
-							<h5>University of Niagara Falls, ON.</h5>
+							<h5>University of Niagara Falls, Canada</h5>
 							<h5>July 2025 – Present</h5>
 						</div>
 					</div>

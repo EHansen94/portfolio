@@ -25,11 +25,11 @@ export default function Intro({ buttonClick }) {
 						<br />
 						Currently, I work with{" "}
 						<a href="https://www.unfc.ca/" target="_blank">
-							UNFC
+							UNF (University of Niagara Falls, Canada)
 						</a>{" "}
 						as a Front End Developer, where I focus on building and
-						maintaining custom components for the Ellucian
-						Experience platform, as well as ensuring seamless
+						maintaining custom components and workflows for the
+						Ellucian platform, as well as ensuring seamless
 						integration with various university systems.
 					</p>
 				</motion.div>
