@@ -36,7 +36,7 @@ export default function ProjectsSlider({ projectData }) {
 	return (
 		<div className={styles["wrapper"]}>
 			<div className={styles["header"]}>
-				<h2>Recent Projects</h2>
+				<h2>Full-stack Projects</h2>
 				<Link href="/projects">View All Projects</Link>
 			</div>
 			<div className={styles["carousel-container"]}>
