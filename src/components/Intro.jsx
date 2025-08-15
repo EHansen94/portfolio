@@ -28,7 +28,7 @@ export default function Intro({ buttonClick }) {
 						</a>{" "}
 						as a Front End Developer within the Systems & BI team,
 						where I focus on building and maintaining custom
-						components and workflows across various platforms, as
+						components and workflows across multiple platforms, as
 						well as ensuring seamless integration with various
 						university systems.
 					</p>
