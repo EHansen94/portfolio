@@ -34,12 +34,9 @@ export default function experience() {
 					<div className={styles["job-description"]}>
 						<p>
 							As a Front End Developer, I focus on building and
-							maintaining custom components for the Ellucian
-							Experience platform. My work emphasizes modern web
-							development practices using JavaScript, HTML, CSS,
-							Node.js, and REST APIs, delivering responsive and
-							scalable user interfaces aligned with institutional
-							needs.
+							maintaining custom components across the University
+							ecosystem. I work on custom workflows and
+							integrations for various departments and services.
 						</p>
 						<ul>
 							<li>
