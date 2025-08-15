@@ -12,7 +12,7 @@ export default function Projects() {
 				title="My Projects | Erik Hansen"
 				description="A collection of projects I have worked on."
 			/>
-			<h2>My Projects</h2>
+			<h2>Some Projects I&apos;ve helped bring to life</h2>
 			<div className={styles["projects"]}>
 				{[...projectData]
 					.sort((a, b) => a.name.localeCompare(b.name))

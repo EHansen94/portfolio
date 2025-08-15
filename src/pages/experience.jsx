@@ -15,7 +15,7 @@ export default function experience() {
 				animate={{ opacity: 1, x: 0 }}
 				transition={{ duration: 1.25 }}
 			>
-				Professional Experience
+				My Professional Experiences
 			</motion.h2>
 			<div className={styles["experiences"]}>
 				<motion.div

@@ -380,4 +380,32 @@ concept art presentations with multiple color palettes and immersive parallax ef
 		`,
 		tools: ["React", "TailwindCSS", "Strapi", "Figma"],
 	},
+	{
+		id: 12,
+		name: "Formastack",
+		summary: `I worked on the design and development of a new Formastack site. Formastack focuses on fullstack business solutions, from marketing to application deployment.
+		<br/><br/>
+		The project included a full website design and development, with a focus on content management, user experience, and scalability.
+		`,
+		preview: "/images/PortfolioPhotos/Formastack/intro.png",
+		link: "https://www.formastack.ca/",
+		galleryImages: [
+			"/images/PortfolioPhotos/Formastack/home.png",
+			"/images/PortfolioPhotos/Formastack/work.png",
+			"/images/PortfolioPhotos/Formastack/it.png",
+			"/images/PortfolioPhotos/Formastack/services.png",
+		],
+		desc: `I worked in a small team for a full redesign and development of a new Formastack site. Formastack focuses on fullstack business solutions, from marketing to application deployment.
+		<br/><br/>
+		The project included a full website design in Figma and development with React.js and Tailwind CSS.
+		<h3> Key Features:</h3>
+		<ul>
+		<li>Scalable sections via Payload CMS</li>
+		<li>Custom visuals and designs</li>
+		<li>Optimized performance and loading times</li>
+		<li>Enhanced user experience through intuitive design</li>
+		</ul>
+		`,
+		tools: ["React", "TailwindCSS", "Payload", "Figma"],
+	},
 ];
