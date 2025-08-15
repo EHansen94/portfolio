@@ -33,10 +33,11 @@ export default function experience() {
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							As a Front End Developer, I focus on building and
-							maintaining custom components across the University
-							ecosystem. I work on custom workflows and
-							integrations for various departments and services.
+							As a Front End Developer within the Systems and BI
+							team, I focus on building and maintaining custom
+							components across the University ecosystem. I work
+							on custom workflows and integrations for various
+							departments and services.
 						</p>
 						<ul>
 							<li>
