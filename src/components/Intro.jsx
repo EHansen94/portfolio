@@ -18,19 +18,19 @@ export default function Intro({ buttonClick }) {
 				>
 					<h2>Hi, I&apos;m Erik</h2>
 					<p>
-						I&apos;m an experienced developer with a background in
-						Computer Science and a passion for creating custom,
-						visually appealing, and highly functional applications.
+						I&apos;m an experienced software developer with a strong
+						background in both Computer Science and Photonics.
 						<br />
 						<br />
-						Currently, I work with{" "}
+						Currently, I work with the{" "}
 						<a href="https://www.unfc.ca/" target="_blank">
-							UNF (University of Niagara Falls, Canada)
+							University of Niagara Falls, Canada
 						</a>{" "}
-						as a Front End Developer, where I focus on building and
-						maintaining custom components and workflows for the
-						Ellucian platform, as well as ensuring seamless
-						integration with various university systems.
+						as a Front End Developer within the Systems & BI team,
+						where I focus on building and maintaining custom
+						components and workflows across various platforms, as
+						well as ensuring seamless integration with various
+						university systems.
 					</p>
 				</motion.div>
 				<motion.div

@@ -33,11 +33,11 @@ export default function experience() {
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							As a Front End Developer within the Systems and BI
-							team, I focus on building and maintaining custom
-							components across the University ecosystem. I work
-							on custom workflows and integrations for various
-							departments and services.
+							As a Front End Developer within the Student Systems
+							and Business Intelligence team, I focus on building
+							and maintaining custom components across the
+							University ecosystem. I work on custom workflows and
+							integrations for various departments and services.
 						</p>
 						<ul>
 							<li>
@@ -95,13 +95,13 @@ export default function experience() {
 					</div>
 					<div className={styles["job-description"]}>
 						<p>
-							As a Web Development Team Lead at Civiconnect,
-							I&apos;ve combined leadership and hands-on technical
-							expertise to deliver high-quality web projects. I
-							led six development teams, mentored junior
-							developers, and facilitated smooth collaboration
-							across teams. My role evolved to focus on
-							architecting efficient, scalable codebases,
+							During my time as a Web Development Team Lead at
+							Civiconnect, I combined leadership and hands-on
+							technical expertise to deliver high-quality web
+							projects. I led six development teams, mentored
+							junior developers, and facilitated smooth
+							collaboration across teams. My role evolved to focus
+							on architecting efficient, scalable codebases,
 							streamlining workflows, and aligning development
 							with evolving client needs.
 						</p>
