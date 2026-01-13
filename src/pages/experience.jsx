@@ -34,9 +34,9 @@ export default function experience() {
 					<div className={styles["job-description"]}>
 						<p>
 							As a Front End Developer within the Student Systems
-							and Business Intelligence team, I focus on building
-							and maintaining custom components across the
-							University ecosystem. I work on custom workflows and
+							team, I focus on building, configuring, and
+							maintaining custom components across the University
+							ecosystem. I work on custom workflows and
 							integrations for various departments and services.
 						</p>
 						<ul>
@@ -54,10 +54,10 @@ export default function experience() {
 								University needs.
 							</li>
 							<li>
-								Integrate REST APIs and other external systems
-								to enable data exchange and functionality within
-								the Ellucian environments and other systems at
-								the University.
+								Configuration and testing of REST APIs and other
+								external systems to enable data exchange and
+								functionality within the Ellucian environments
+								and other systems at the University.
 							</li>
 							<li>
 								Create communication templates using HTML to
