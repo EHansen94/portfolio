@@ -18,7 +18,7 @@ export default function Intro({ buttonClick }) {
 				>
 					<h2>Hi, I&apos;m Erik</h2>
 					<p>
-						I&apos;m an experienced software developer with a strong
+						I&apos;m an experienced developer with a strong
 						background in both Computer Science and Photonics.
 						<br />
 						<br />
