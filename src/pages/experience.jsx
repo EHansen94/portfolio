@@ -41,11 +41,11 @@ export default function experience() {
 						</p>
 						<ul>
 							<li>
-								Collaborate with cross-functional teams to
-								understand business requirements and translate
-								them into technical solutions within the
-								Ellucian Experience, Colleague UI, TEAMia and
-								related platforms.
+								Lead the design, development, and implementation
+								of complex workflow processes within the systems
+								at the University, utilizing platforms such as
+								TEAMia and Ellucian, to streamline university
+								operations and enhance user experience.
 							</li>
 							<li>
 								Design and develop custom cards using
@@ -60,17 +60,16 @@ export default function experience() {
 								and other systems at the University.
 							</li>
 							<li>
+								Collaborate with cross-functional teams to
+								understand business requirements and translate
+								them into technical solutions within the
+								Ellucian Experience, Colleague UI, TEAMia and
+								related platforms.
+							</li>
+							<li>
 								Create communication templates using HTML to
 								deliver personalized and engaging messages to
 								students, faculty, and staff.
-							</li>
-							<li>
-								Lead the design, development, and implementation
-								of complex workflow processes within the systems
-								at the University, utilizing Ellucian
-								Workflow/Salesforce Flow, to streamline
-								university operations and enhance user
-								experience.
 							</li>
 							<li>
 								Troubleshoot issues, optimize performance, and

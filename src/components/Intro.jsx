@@ -26,8 +26,8 @@ export default function Intro({ buttonClick }) {
 						<a href="https://www.unfc.ca/" target="_blank">
 							University of Niagara Falls, Canada
 						</a>{" "}
-						as a Front End Developer within the Systems & BI team,
-						where I focus on building and maintaining custom
+						as a Front End Developer within the Student Systems & BI
+						team, where I focus on building and maintaining custom
 						components and workflows across multiple platforms, as
 						well as ensuring seamless integration with various
 						university systems.
